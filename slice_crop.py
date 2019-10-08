@@ -96,7 +96,7 @@ while index < len(lines):
     # Saving cropped image as png
     save_path = 'test/crop_t2w/{}_{}.png'.format(patient_id, fid)
     skimage.io.imsave(save_path, t2w_image_cropped)
-    
+
     index += 1
     
     print("{}/326 done".format(index))
