@@ -64,7 +64,7 @@ while index < len(lines):
     h = int((crop_height - 1) / 2)
     w = int((crop_width - 1) / 2)
 
-    t2w_image_cropped = t2w_image_sliced[h_mid - h : h_mid + h, w_mid - w: w_mid + w]
+    t2w_image_cropped = t2w_image_sliced[h_mid - h : h_mid + h + 1, w_mid - w: w_mid + w + 1]
     
     # Scaling to input height and width
     if patient_id == "pt_0181" or patient_id == "pt_0075":
