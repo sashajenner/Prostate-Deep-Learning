@@ -4,16 +4,16 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import skimage.io
 
-with open('info.csv') as f:
+with open('../data/info.csv') as f:
     reader = csv.reader(f)
     lines = list(reader)
 
 for i in range(10):
     print("%15s" * 7 % tuple(lines[i]))
 
-t2w = nibabel.load('mri/pt_0000/t2w.nii')
-adc = nibabel.load('mri/pt_0000/adc.nii')
-ktrans = nibabel.load('mri/pt_0000/ktrans.nii')
+t2w = nibabel.load('../data/mri/pt_0000/t2w.nii')
+adc = nibabel.load('../data/mri/pt_0000/adc.nii')
+ktrans = nibabel.load('../data/mri/pt_0000/ktrans.nii')
 
 print("T2W Image shape:", t2w.shape)
 print("ADC Image shape:", adc.shape)
@@ -45,7 +45,7 @@ plt.show()
 plt.imshow(mask[:,:,9] * 0.9 + t2w_img[:,:,9] * 0.1)
 plt.show()
 
-vis = skimage.io.imread('vis/true/1.tiff')
+vis = skimage.io.imread('../data/vis/true/1.tiff')
 vis = vis / 2**16
 
 plt.imshow(vis)
