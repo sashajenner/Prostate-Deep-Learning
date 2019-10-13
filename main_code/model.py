@@ -18,8 +18,8 @@ lines.pop(0) # Removing the header
 print("Preparing images and labels...")
 
 # Declaring empty lists to hold the image and label data
-t2w_images = []
-t2w_labels = []
+X = []
+Y = []
 index = 0
 for index in range(len(lines)):
     entry = lines[index]
@@ -29,33 +29,38 @@ for index in range(len(lines)):
     fid = int(entry[3])
     label = True if entry[-1] == "TRUE" else False
 
-    # Loading each t2w image and locating the required slice
+    # Loading each cropped image
     t2w_cropped_file = nib.load('../data/mri/{}/t2w_cropped_0{}.nii'.format(patient_id, fid))
     t2w_cropped_image = t2w_cropped_file.get_fdata()
+    ktrans_cropped_file = nib.load('../data/mri/{}/ktrans_cropped_0{}.nii'.format(patient_id, fid))
+    ktrans_cropped_image = ktrans_cropped_file.get_fdata()
+    adc_cropped_file = nib.load('../data/mri/{}/adc_cropped_0{}.nii'.format(patient_id, fid))
+    adc_cropped_image = adc_cropped_file.get_fdata()
+
+    merged_crop = np.dstack((t2w_cropped_image, ktrans_cropped_image, adc_cropped_image))
     
-    t2w_images.append(t2w_cropped_image)
-    t2w_labels.append(label)
+    # Testing print(merged_crop)
+
+    X.append(merged_crop)
+    Y.append(label)
 
 # Turning the image and label lists to a numpy arrays
-t2w_images = np.array(t2w_images)
-t2w_labels = np.array(t2w_labels)
+X = np.array(X)
+Y = np.array(Y)
 
 # Image dimensions
-num_images, img_rows, img_cols = t2w_images.shape # (326, 147, 147)
+num_images, img_rows, img_cols, layers = X.shape # (326, 147, 147, 3)
 
-# Since the images are greyscale - 1
-t2w_images = t2w_images.reshape(num_images, img_rows, img_cols, 1)
-
-print('Images shape:', t2w_images.shape) # Testing
+print('Images shape:', X.shape) # Testing
 
 # Normalise the data (so that they lie between 0 and 1)
-t2w_images = t2w_images.astype('float32') / 255.0
+X = X.astype('float32') / 255.0
 
 # Preprocessing the label data
-t2w_labels = keras.utils.to_categorical(t2w_labels, 2)
+Y = keras.utils.to_categorical(Y, 2)
 
 # Splitting the data into training and testing
-X_train, X_test, Y_train, Y_test = train_test_split(t2w_images, t2w_labels, test_size = 1/7)
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 1/7)
 
     ## Define the deep learning structure
 
@@ -66,7 +71,7 @@ model = keras.models.Sequential()
 
 # Add the first convolutional layer
 model.add(keras.layers.Conv2D(32, kernel_size = (3,3), 
-                              activation='relu', input_shape = (img_rows, img_cols, 1)))
+                              activation='relu', input_shape = (img_rows, img_cols, layers)))
 # Add the first pooling layer
 model.add(keras.layers.MaxPooling2D(pool_size = (2,2)))
 
