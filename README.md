@@ -1,3 +1,4 @@
 # Prostate-Deep-Learning
 
-[final wrap code ](https://colab.research.google.com/drive/1zSECsaEL10SrJ95oNzubZw55zvgtpdNv)
+
+[Final-report](https://docs.google.com/document/d/1J17MVV7rLbTDQ5K3jzZzv3nALXPTQaqM0yUOXSXAcFc/edit?usp=sharing)
