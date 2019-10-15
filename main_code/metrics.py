@@ -47,7 +47,8 @@ def sensitivity(x_pred, x_true):
 
   not_pred = 1-x_pred
 
-  FN = K.sum(not_true * x_pred)
+# FN = K.sum(not_true * x_pred)
+  FN = K.sum(x_true * not_pred)
 
   TP = K.sum(x_true * x_pred)
 
