@@ -1,11 +1,6 @@
 import keras
 from sklearn.model_selection import train_test_split
 import numpy as np
-import keras.backend as K
-
-import sys
-sys.path.append('../../')
-import metrics
 
 # Just disables the warning, doesn't enable AVX/FMA
 import os
@@ -27,14 +22,14 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 1/7)
 print("Loading model from disk...")
 
 # Loading the model
-json_file = open("../../../data/models/model_001/model_001.json", "r")
+json_file = open("../../../data/models/model_004/model_004.json", "r")
 loaded_json_file = json_file.read()
 json_file.close()
 
 with keras.utils.CustomObjectScope({'GlorotUniform': keras.initializers.glorot_uniform()}):
     model = keras.models.model_from_json(loaded_json_file)
 
-model.load_weights("../../../data/models/model_001/model_001.h5")
+model.load_weights("../../../data/models/model_004/model_004.h5")
 
 
 print("Training...")
@@ -42,24 +37,17 @@ print("Training...")
 # Configure the training details, e.g. what optimiser to use
 model.compile(loss = keras.losses.categorical_crossentropy,
              optimizer = keras.optimizers.Adadelta(),
-             metrics = ['accuracy', metrics.specificity, metrics.sensitivity])
+             metrics = ['accuracy', sensitivity, specificity])
 
 # Fit the model. The loss and accuracy will be outputed by default.
 history = model.fit(X_train, Y_train,
-          batch_size = 512,
-          epochs = 20)
+          batch_size = 256,
+          epochs = 10)
 
 # Evaluate the performance
 performance = model.evaluate(X_test, Y_test)
-print(
-'''
-On Test Data:
-Loss -> %.3f
-Accuracy -> %.3f
-Specificity -> %.3f
-Sensitivity -> %.3f
-'''
-% tuple(performance))
+print('The loss is %.3f and the accuracy is %.3f on the test data' 
+       % tuple(performance))
 
 
 print("Saving the model...")
