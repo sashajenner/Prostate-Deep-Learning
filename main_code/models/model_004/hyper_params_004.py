@@ -36,7 +36,7 @@ model.add(keras.layers.Conv2D(128, (3,3), activation = 'relu'))
 # The second pooling layer
 model.add(keras.layers.MaxPooling2D(pool_size = (2,2)))
 
-# Similarly the thrid convolutional layer
+# Similarly the third convolutional layer
 model.add(keras.layers.Conv2D(32, (3,3), activation = 'relu'))
 # The second pooling layer
 model.add(keras.layers.MaxPooling2D(pool_size = (2,2)))
@@ -59,3 +59,9 @@ with open("../../../data/models/model_004/model_004.json", "w") as json_file:
 
 # Serialise weights to HDF5
 model.save_weights("../../../data/models/model_004/model_004.h5")
+
+
+# Writing the model summary to a file
+import sys
+sys.stdout = open("../../../data/models/model_004/model_004_summary.txt", "w")
+model.summary()

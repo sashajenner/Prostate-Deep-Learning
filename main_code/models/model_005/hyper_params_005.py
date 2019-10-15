@@ -15,6 +15,7 @@ X = np.load("../../../data/X.npy")
 # Image dimensions
 num_images, img_rows, img_cols, channels = X.shape # (326, 147, 147, 3)
 
+#-------------------------------------DONT EDIT ABOVE LINE-------------------------------------------------
 
     ## Define the deep learning structure
 
@@ -58,3 +59,9 @@ with open("../../../data/models/model_005/model_005.json", "w") as json_file:
 
 # Serialise weights to HDF5
 model.save_weights("../../../data/models/model_005/model_005.h5")
+
+
+# Writing the model summary to a file
+import sys
+sys.stdout = open("../../../data/models/model_005/model_005_summary.txt", "w")
+model.summary()

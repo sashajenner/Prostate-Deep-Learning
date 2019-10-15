@@ -15,6 +15,7 @@ X = np.load("../../../data/X.npy")
 # Image dimensions
 num_images, img_rows, img_cols, channels = X.shape # (326, 147, 147, 3)
 
+#-------------------------------------DONT EDIT ABOVE LINE-------------------------------------------------
 
     ## Define the deep learning structure
 
@@ -44,12 +45,18 @@ model.add(keras.layers.Dense(2, activation = 'softmax'))
 
 model.summary()
 
-print("Saving model 001 to disk...")
+print("Saving model 003 to disk...")
 
 # Serialise model to JSON
 model_json = model.to_json()
-with open("../../../data/models/model_001/model_001.json", "w") as json_file:
+with open("../../../data/models/model_003/model_003.json", "w") as json_file:
     json_file.write(model_json)
 
 # Serialise weights to HDF5
-model.save_weights("../../../data/models/model_001/model_001.h5")
+model.save_weights("../../../data/models/model_003/model_003.h5")
+
+
+# Writing the model summary to a file
+import sys
+sys.stdout = open("../../../data/models/model_003/model_003_summary.txt", "w")
+model.summary()
