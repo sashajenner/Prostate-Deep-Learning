@@ -1,0 +1,48 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Loading training and testing data from disk...
+Loading model from disk...
+Training...
+Epoch 1/10
+
+279/279 [==============================] - 4s 15ms/step - loss: 0.5769 - acc: 0.7491 - specificity: 0.5931 - sensitivity: 0.5931
+Epoch 2/10
+
+279/279 [==============================] - 3s 11ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 3/10
+
+279/279 [==============================] - 3s 11ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 4/10
+
+279/279 [==============================] - 3s 11ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 5/10
+
+279/279 [==============================] - 3s 12ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 6/10
+
+279/279 [==============================] - 3s 12ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 7/10
+
+279/279 [==============================] - 3s 11ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 8/10
+
+279/279 [==============================] - 3s 12ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 9/10
+
+279/279 [==============================] - 3s 12ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 10/10
+
+279/279 [==============================] - 3s 12ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+
+32/47 [===================>..........] - ETA: 0s
+47/47 [==============================] - 0s 5ms/step
+Using TensorFlow backend.
+
+On Test Data:
+Loss -> 2.401
+Accuracy -> 0.851%
+Specificity -> 0.851%
+Sensitivity -> 0.851%
+
+Saving model 002...

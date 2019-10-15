@@ -1,0 +1,78 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Loading training and testing data from disk...
+Loading model from disk...
+Training...
+Epoch 1/20
+
+279/279 [==============================] - 8s 28ms/step - loss: 0.7331 - acc: 0.4803 - specificity: 0.4981 - sensitivity: 0.4981
+Epoch 2/20
+
+279/279 [==============================] - 6s 23ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 3/20
+
+279/279 [==============================] - 6s 21ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 4/20
+
+279/279 [==============================] - 6s 22ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 5/20
+
+279/279 [==============================] - 6s 22ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 6/20
+
+279/279 [==============================] - 6s 20ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 7/20
+
+279/279 [==============================] - 7s 24ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 8/20
+
+279/279 [==============================] - 5s 20ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 9/20
+
+279/279 [==============================] - 6s 22ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 10/20
+
+279/279 [==============================] - 6s 21ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 11/20
+
+279/279 [==============================] - 6s 20ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 12/20
+
+279/279 [==============================] - 6s 23ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 13/20
+
+279/279 [==============================] - 6s 21ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 14/20
+
+279/279 [==============================] - 6s 22ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 15/20
+
+279/279 [==============================] - 6s 20ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 16/20
+
+279/279 [==============================] - 6s 20ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 17/20
+
+279/279 [==============================] - 6s 22ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 18/20
+
+279/279 [==============================] - 5s 19ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 19/20
+
+279/279 [==============================] - 6s 22ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+Epoch 20/20
+
+279/279 [==============================] - 6s 21ms/step - loss: 4.2173 - acc: 0.7384 - specificity: 0.7384 - sensitivity: 0.7384
+
+32/47 [===================>..........] - ETA: 0s
+47/47 [==============================] - 0s 6ms/step
+Using TensorFlow backend.
+
+On Test Data:
+Loss -> 1.029
+Accuracy -> 0.936%
+Specificity -> 0.936%
+Sensitivity -> 0.936%
+
+Saving model 001...

@@ -1,0 +1,1118 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Loading training and testing data from disk...
+Loading model from disk...
+Training...
+Epoch 1/100
+
+ 32/279 [==>...........................] - ETA: 13s - loss: 0.7158 - acc: 0.4688 - specificity: 0.5039 - sensitivity: 0.5039
+ 64/279 [=====>........................] - ETA: 8s - loss: 2.3727 - acc: 0.6094 - specificity: 0.6270 - sensitivity: 0.6270 
+ 96/279 [=========>....................] - ETA: 6s - loss: 3.2607 - acc: 0.6354 - specificity: 0.6471 - sensitivity: 0.6471
+128/279 [============>.................] - ETA: 5s - loss: 3.7048 - acc: 0.6484 - specificity: 0.6572 - sensitivity: 0.6572
+160/279 [================>.............] - ETA: 3s - loss: 3.7697 - acc: 0.6687 - specificity: 0.6758 - sensitivity: 0.6758
+192/279 [===================>..........] - ETA: 2s - loss: 3.9809 - acc: 0.6719 - specificity: 0.6777 - sensitivity: 0.6777
+224/279 [=======================>......] - ETA: 1s - loss: 3.5561 - acc: 0.7098 - specificity: 0.7148 - sensitivity: 0.7148
+256/279 [==========================>...] - ETA: 0s - loss: 3.4264 - acc: 0.7266 - specificity: 0.7310 - sensitivity: 0.7310
+279/279 [==============================] - 8s 27ms/step - loss: 3.4906 - acc: 0.7276 - specificity: 0.7316 - sensitivity: 0.7316
+Epoch 2/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 2.0148 - acc: 0.8750 - specificity: 0.8750 - sensitivity: 0.8750
+ 64/279 [=====>........................] - ETA: 5s - loss: 2.0148 - acc: 0.8750 - specificity: 0.8750 - sensitivity: 0.8750
+ 96/279 [=========>....................] - ETA: 4s - loss: 2.6863 - acc: 0.8333 - specificity: 0.8333 - sensitivity: 0.8333
+128/279 [============>.................] - ETA: 3s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+160/279 [================>.............] - ETA: 2s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 1s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+224/279 [=======================>......] - ETA: 1s - loss: 3.7417 - acc: 0.7679 - specificity: 0.7679 - sensitivity: 0.7679
+256/279 [==========================>...] - ETA: 0s - loss: 3.8406 - acc: 0.7617 - specificity: 0.7617 - sensitivity: 0.7617
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 3/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+160/279 [================>.............] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+192/279 [===================>..........] - ETA: 2s - loss: 4.1135 - acc: 0.7448 - specificity: 0.7448 - sensitivity: 0.7448
+224/279 [=======================>......] - ETA: 1s - loss: 4.3173 - acc: 0.7321 - specificity: 0.7321 - sensitivity: 0.7321
+256/279 [==========================>...] - ETA: 0s - loss: 4.2184 - acc: 0.7383 - specificity: 0.7383 - sensitivity: 0.7383
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 4/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 5.5406 - acc: 0.6562 - specificity: 0.6562 - sensitivity: 0.6562
+ 64/279 [=====>........................] - ETA: 4s - loss: 5.2887 - acc: 0.6719 - specificity: 0.6719 - sensitivity: 0.6719
+ 96/279 [=========>....................] - ETA: 3s - loss: 4.7011 - acc: 0.7083 - specificity: 0.7083 - sensitivity: 0.7083
+128/279 [============>.................] - ETA: 3s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+160/279 [================>.............] - ETA: 2s - loss: 4.1303 - acc: 0.7438 - specificity: 0.7438 - sensitivity: 0.7438
+192/279 [===================>..........] - ETA: 1s - loss: 4.1135 - acc: 0.7448 - specificity: 0.7448 - sensitivity: 0.7448
+224/279 [=======================>......] - ETA: 1s - loss: 4.1734 - acc: 0.7411 - specificity: 0.7411 - sensitivity: 0.7411
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 6s 22ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 5/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 2.0148 - acc: 0.8750 - specificity: 0.8750 - sensitivity: 0.8750
+ 64/279 [=====>........................] - ETA: 5s - loss: 2.2666 - acc: 0.8594 - specificity: 0.8594 - sensitivity: 0.8594
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+128/279 [============>.................] - ETA: 3s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+160/279 [================>.............] - ETA: 2s - loss: 3.1229 - acc: 0.8063 - specificity: 0.8063 - sensitivity: 0.8063
+192/279 [===================>..........] - ETA: 1s - loss: 3.6098 - acc: 0.7760 - specificity: 0.7760 - sensitivity: 0.7760
+224/279 [=======================>......] - ETA: 1s - loss: 3.6697 - acc: 0.7723 - specificity: 0.7723 - sensitivity: 0.7723
+256/279 [==========================>...] - ETA: 0s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 6/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+128/279 [============>.................] - ETA: 3s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+160/279 [================>.............] - ETA: 2s - loss: 4.2310 - acc: 0.7375 - specificity: 0.7375 - sensitivity: 0.7375
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 7/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 2.5185 - acc: 0.8438 - specificity: 0.8438 - sensitivity: 0.8438
+ 64/279 [=====>........................] - ETA: 5s - loss: 2.7703 - acc: 0.8281 - specificity: 0.8281 - sensitivity: 0.8281
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.1900 - acc: 0.8021 - specificity: 0.8021 - sensitivity: 0.8021
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 4.2310 - acc: 0.7375 - specificity: 0.7375 - sensitivity: 0.7375
+192/279 [===================>..........] - ETA: 2s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 8/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 64/279 [=====>........................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+160/279 [================>.............] - ETA: 2s - loss: 3.8280 - acc: 0.7625 - specificity: 0.7625 - sensitivity: 0.7625
+192/279 [===================>..........] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 6s 22ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 9/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+128/279 [============>.................] - ETA: 3s - loss: 3.3999 - acc: 0.7891 - specificity: 0.7891 - sensitivity: 0.7891
+160/279 [================>.............] - ETA: 2s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 2s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+224/279 [=======================>......] - ETA: 1s - loss: 3.8856 - acc: 0.7589 - specificity: 0.7589 - sensitivity: 0.7589
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 10/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.1900 - acc: 0.8021 - specificity: 0.8021 - sensitivity: 0.8021
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 3.7273 - acc: 0.7688 - specificity: 0.7688 - sensitivity: 0.7688
+192/279 [===================>..........] - ETA: 1s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+224/279 [=======================>......] - ETA: 1s - loss: 3.7417 - acc: 0.7679 - specificity: 0.7679 - sensitivity: 0.7679
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 6s 23ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 11/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+160/279 [================>.............] - ETA: 2s - loss: 4.1303 - acc: 0.7438 - specificity: 0.7438 - sensitivity: 0.7438
+192/279 [===================>..........] - ETA: 1s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 3.8406 - acc: 0.7617 - specificity: 0.7617 - sensitivity: 0.7617
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 12/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 1.5111 - acc: 0.9062 - specificity: 0.9062 - sensitivity: 0.9062
+ 64/279 [=====>........................] - ETA: 4s - loss: 2.5185 - acc: 0.8438 - specificity: 0.8438 - sensitivity: 0.8438
+ 96/279 [=========>....................] - ETA: 4s - loss: 2.8542 - acc: 0.8229 - specificity: 0.8229 - sensitivity: 0.8229
+128/279 [============>.................] - ETA: 3s - loss: 3.3999 - acc: 0.7891 - specificity: 0.7891 - sensitivity: 0.7891
+160/279 [================>.............] - ETA: 2s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+192/279 [===================>..........] - ETA: 1s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 6s 22ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 13/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+128/279 [============>.................] - ETA: 4s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+160/279 [================>.............] - ETA: 3s - loss: 4.4325 - acc: 0.7250 - specificity: 0.7250 - sensitivity: 0.7250
+192/279 [===================>..........] - ETA: 2s - loss: 4.1135 - acc: 0.7448 - specificity: 0.7448 - sensitivity: 0.7448
+224/279 [=======================>......] - ETA: 1s - loss: 3.8137 - acc: 0.7634 - specificity: 0.7634 - sensitivity: 0.7634
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 26ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 14/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.4073 - acc: 0.7266 - specificity: 0.7266 - sensitivity: 0.7266
+160/279 [================>.............] - ETA: 2s - loss: 4.3317 - acc: 0.7312 - specificity: 0.7312 - sensitivity: 0.7312
+192/279 [===================>..........] - ETA: 2s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+224/279 [=======================>......] - ETA: 1s - loss: 4.1734 - acc: 0.7411 - specificity: 0.7411 - sensitivity: 0.7411
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 6s 22ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 15/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+128/279 [============>.................] - ETA: 3s - loss: 4.4073 - acc: 0.7266 - specificity: 0.7266 - sensitivity: 0.7266
+160/279 [================>.............] - ETA: 2s - loss: 4.1303 - acc: 0.7438 - specificity: 0.7438 - sensitivity: 0.7438
+192/279 [===================>..........] - ETA: 2s - loss: 4.7011 - acc: 0.7083 - specificity: 0.7083 - sensitivity: 0.7083
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 16/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+ 96/279 [=========>....................] - ETA: 4s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+128/279 [============>.................] - ETA: 3s - loss: 4.6591 - acc: 0.7109 - specificity: 0.7109 - sensitivity: 0.7109
+160/279 [================>.............] - ETA: 2s - loss: 4.6340 - acc: 0.7125 - specificity: 0.7125 - sensitivity: 0.7125
+192/279 [===================>..........] - ETA: 2s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+224/279 [=======================>......] - ETA: 1s - loss: 4.2454 - acc: 0.7366 - specificity: 0.7366 - sensitivity: 0.7366
+256/279 [==========================>...] - ETA: 0s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+279/279 [==============================] - 6s 23ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 17/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+128/279 [============>.................] - ETA: 4s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 3s - loss: 3.7273 - acc: 0.7688 - specificity: 0.7688 - sensitivity: 0.7688
+192/279 [===================>..........] - ETA: 2s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+224/279 [=======================>......] - ETA: 1s - loss: 3.8137 - acc: 0.7634 - specificity: 0.7634 - sensitivity: 0.7634
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 18/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 96/279 [=========>....................] - ETA: 4s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+128/279 [============>.................] - ETA: 3s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+160/279 [================>.............] - ETA: 2s - loss: 4.3317 - acc: 0.7312 - specificity: 0.7312 - sensitivity: 0.7312
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 3.8856 - acc: 0.7589 - specificity: 0.7589 - sensitivity: 0.7589
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 19/100
+
+ 32/279 [==>...........................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 4s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+ 96/279 [=========>....................] - ETA: 3s - loss: 4.3653 - acc: 0.7292 - specificity: 0.7292 - sensitivity: 0.7292
+128/279 [============>.................] - ETA: 3s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+160/279 [================>.............] - ETA: 2s - loss: 4.1303 - acc: 0.7438 - specificity: 0.7438 - sensitivity: 0.7438
+192/279 [===================>..........] - ETA: 2s - loss: 4.1135 - acc: 0.7448 - specificity: 0.7448 - sensitivity: 0.7448
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 20/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 2.5185 - acc: 0.8438 - specificity: 0.8438 - sensitivity: 0.8438
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 3s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 21/100
+
+ 32/279 [==>...........................] - ETA: 4s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 64/279 [=====>........................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 96/279 [=========>....................] - ETA: 3s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 3.8280 - acc: 0.7625 - specificity: 0.7625 - sensitivity: 0.7625
+192/279 [===================>..........] - ETA: 2s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 26ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 22/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 96/279 [=========>....................] - ETA: 3s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+128/279 [============>.................] - ETA: 3s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+160/279 [================>.............] - ETA: 2s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 2s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+224/279 [=======================>......] - ETA: 1s - loss: 3.7417 - acc: 0.7679 - specificity: 0.7679 - sensitivity: 0.7679
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 23/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 4s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+ 96/279 [=========>....................] - ETA: 3s - loss: 4.7011 - acc: 0.7083 - specificity: 0.7083 - sensitivity: 0.7083
+128/279 [============>.................] - ETA: 3s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 4.2454 - acc: 0.7366 - specificity: 0.7366 - sensitivity: 0.7366
+256/279 [==========================>...] - ETA: 0s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 24/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.1900 - acc: 0.8021 - specificity: 0.8021 - sensitivity: 0.8021
+128/279 [============>.................] - ETA: 3s - loss: 3.3999 - acc: 0.7891 - specificity: 0.7891 - sensitivity: 0.7891
+160/279 [================>.............] - ETA: 2s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 2s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 25/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+192/279 [===================>..........] - ETA: 2s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+279/279 [==============================] - 7s 26ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 26/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 64/279 [=====>........................] - ETA: 4s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+160/279 [================>.............] - ETA: 2s - loss: 4.3317 - acc: 0.7312 - specificity: 0.7312 - sensitivity: 0.7312
+192/279 [===================>..........] - ETA: 2s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 27/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+128/279 [============>.................] - ETA: 3s - loss: 4.4073 - acc: 0.7266 - specificity: 0.7266 - sensitivity: 0.7266
+160/279 [================>.............] - ETA: 2s - loss: 4.7347 - acc: 0.7063 - specificity: 0.7063 - sensitivity: 0.7063
+192/279 [===================>..........] - ETA: 2s - loss: 4.4493 - acc: 0.7240 - specificity: 0.7240 - sensitivity: 0.7240
+224/279 [=======================>......] - ETA: 1s - loss: 4.2454 - acc: 0.7366 - specificity: 0.7366 - sensitivity: 0.7366
+256/279 [==========================>...] - ETA: 0s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 28/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.1900 - acc: 0.8021 - specificity: 0.8021 - sensitivity: 0.8021
+128/279 [============>.................] - ETA: 3s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 29/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 5.5406 - acc: 0.6562 - specificity: 0.6562 - sensitivity: 0.6562
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.7011 - acc: 0.7083 - specificity: 0.7083 - sensitivity: 0.7083
+128/279 [============>.................] - ETA: 3s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+160/279 [================>.............] - ETA: 2s - loss: 4.6340 - acc: 0.7125 - specificity: 0.7125 - sensitivity: 0.7125
+192/279 [===================>..........] - ETA: 2s - loss: 4.4493 - acc: 0.7240 - specificity: 0.7240 - sensitivity: 0.7240
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 30/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.3653 - acc: 0.7292 - specificity: 0.7292 - sensitivity: 0.7292
+128/279 [============>.................] - ETA: 3s - loss: 4.4073 - acc: 0.7266 - specificity: 0.7266 - sensitivity: 0.7266
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 4.3653 - acc: 0.7292 - specificity: 0.7292 - sensitivity: 0.7292
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 31/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 7.0517 - acc: 0.5625 - specificity: 0.5625 - sensitivity: 0.5625
+ 64/279 [=====>........................] - ETA: 4s - loss: 5.7924 - acc: 0.6406 - specificity: 0.6406 - sensitivity: 0.6406
+ 96/279 [=========>....................] - ETA: 4s - loss: 5.2048 - acc: 0.6771 - specificity: 0.6771 - sensitivity: 0.6771
+128/279 [============>.................] - ETA: 3s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+160/279 [================>.............] - ETA: 2s - loss: 4.4325 - acc: 0.7250 - specificity: 0.7250 - sensitivity: 0.7250
+192/279 [===================>..........] - ETA: 1s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+224/279 [=======================>......] - ETA: 1s - loss: 3.8856 - acc: 0.7589 - specificity: 0.7589 - sensitivity: 0.7589
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 32/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+128/279 [============>.................] - ETA: 3s - loss: 4.4073 - acc: 0.7266 - specificity: 0.7266 - sensitivity: 0.7266
+160/279 [================>.............] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+192/279 [===================>..........] - ETA: 2s - loss: 4.1135 - acc: 0.7448 - specificity: 0.7448 - sensitivity: 0.7448
+224/279 [=======================>......] - ETA: 1s - loss: 4.2454 - acc: 0.7366 - specificity: 0.7366 - sensitivity: 0.7366
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 33/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+128/279 [============>.................] - ETA: 3s - loss: 4.4073 - acc: 0.7266 - specificity: 0.7266 - sensitivity: 0.7266
+160/279 [================>.............] - ETA: 2s - loss: 4.2310 - acc: 0.7375 - specificity: 0.7375 - sensitivity: 0.7375
+192/279 [===================>..........] - ETA: 2s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 34/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 6s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+ 96/279 [=========>....................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+128/279 [============>.................] - ETA: 4s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 3s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 26ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 35/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.7011 - acc: 0.7083 - specificity: 0.7083 - sensitivity: 0.7083
+128/279 [============>.................] - ETA: 3s - loss: 4.4073 - acc: 0.7266 - specificity: 0.7266 - sensitivity: 0.7266
+160/279 [================>.............] - ETA: 2s - loss: 4.1303 - acc: 0.7438 - specificity: 0.7438 - sensitivity: 0.7438
+192/279 [===================>..........] - ETA: 2s - loss: 3.6098 - acc: 0.7760 - specificity: 0.7760 - sensitivity: 0.7760
+224/279 [=======================>......] - ETA: 1s - loss: 3.6697 - acc: 0.7723 - specificity: 0.7723 - sensitivity: 0.7723
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 6s 23ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 36/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 6s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+ 96/279 [=========>....................] - ETA: 5s - loss: 4.3653 - acc: 0.7292 - specificity: 0.7292 - sensitivity: 0.7292
+128/279 [============>.................] - ETA: 4s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+160/279 [================>.............] - ETA: 3s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 3.8856 - acc: 0.7589 - specificity: 0.7589 - sensitivity: 0.7589
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 27ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 37/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 2.5185 - acc: 0.8438 - specificity: 0.8438 - sensitivity: 0.8438
+ 64/279 [=====>........................] - ETA: 5s - loss: 2.7703 - acc: 0.8281 - specificity: 0.8281 - sensitivity: 0.8281
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+128/279 [============>.................] - ETA: 3s - loss: 3.6518 - acc: 0.7734 - specificity: 0.7734 - sensitivity: 0.7734
+160/279 [================>.............] - ETA: 2s - loss: 3.8280 - acc: 0.7625 - specificity: 0.7625 - sensitivity: 0.7625
+192/279 [===================>..........] - ETA: 2s - loss: 3.6098 - acc: 0.7760 - specificity: 0.7760 - sensitivity: 0.7760
+224/279 [=======================>......] - ETA: 1s - loss: 3.7417 - acc: 0.7679 - specificity: 0.7679 - sensitivity: 0.7679
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 6s 23ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 38/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+ 96/279 [=========>....................] - ETA: 5s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+128/279 [============>.................] - ETA: 4s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+160/279 [================>.............] - ETA: 3s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 3.8856 - acc: 0.7589 - specificity: 0.7589 - sensitivity: 0.7589
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 39/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 2.0148 - acc: 0.8750 - specificity: 0.8750 - sensitivity: 0.8750
+ 64/279 [=====>........................] - ETA: 6s - loss: 2.7703 - acc: 0.8281 - specificity: 0.8281 - sensitivity: 0.8281
+ 96/279 [=========>....................] - ETA: 4s - loss: 2.6863 - acc: 0.8333 - specificity: 0.8333 - sensitivity: 0.8333
+128/279 [============>.................] - ETA: 3s - loss: 3.3999 - acc: 0.7891 - specificity: 0.7891 - sensitivity: 0.7891
+160/279 [================>.............] - ETA: 2s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 2s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+224/279 [=======================>......] - ETA: 1s - loss: 3.7417 - acc: 0.7679 - specificity: 0.7679 - sensitivity: 0.7679
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 40/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+128/279 [============>.................] - ETA: 3s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+160/279 [================>.............] - ETA: 2s - loss: 4.2310 - acc: 0.7375 - specificity: 0.7375 - sensitivity: 0.7375
+192/279 [===================>..........] - ETA: 2s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 23ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 41/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 6s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.3653 - acc: 0.7292 - specificity: 0.7292 - sensitivity: 0.7292
+128/279 [============>.................] - ETA: 3s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+160/279 [================>.............] - ETA: 3s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+192/279 [===================>..........] - ETA: 2s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 42/100
+
+ 32/279 [==>...........................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+128/279 [============>.................] - ETA: 3s - loss: 3.6518 - acc: 0.7734 - specificity: 0.7734 - sensitivity: 0.7734
+160/279 [================>.............] - ETA: 2s - loss: 3.8280 - acc: 0.7625 - specificity: 0.7625 - sensitivity: 0.7625
+192/279 [===================>..........] - ETA: 2s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 23ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 43/100
+
+ 32/279 [==>...........................] - ETA: 8s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 6s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+ 96/279 [=========>....................] - ETA: 5s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+128/279 [============>.................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+160/279 [================>.............] - ETA: 3s - loss: 4.3317 - acc: 0.7312 - specificity: 0.7312 - sensitivity: 0.7312
+192/279 [===================>..........] - ETA: 2s - loss: 4.4493 - acc: 0.7240 - specificity: 0.7240 - sensitivity: 0.7240
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 44/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+ 96/279 [=========>....................] - ETA: 5s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+128/279 [============>.................] - ETA: 4s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+160/279 [================>.............] - ETA: 3s - loss: 4.1303 - acc: 0.7438 - specificity: 0.7438 - sensitivity: 0.7438
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 26ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 45/100
+
+ 32/279 [==>...........................] - ETA: 8s - loss: 1.5111 - acc: 0.9062 - specificity: 0.9062 - sensitivity: 0.9062
+ 64/279 [=====>........................] - ETA: 6s - loss: 2.7703 - acc: 0.8281 - specificity: 0.8281 - sensitivity: 0.8281
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+128/279 [============>.................] - ETA: 3s - loss: 3.1481 - acc: 0.8047 - specificity: 0.8047 - sensitivity: 0.8047
+160/279 [================>.............] - ETA: 3s - loss: 3.3244 - acc: 0.7937 - specificity: 0.7937 - sensitivity: 0.7937
+192/279 [===================>..........] - ETA: 2s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+224/279 [=======================>......] - ETA: 1s - loss: 3.8137 - acc: 0.7634 - specificity: 0.7634 - sensitivity: 0.7634
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 46/100
+
+ 32/279 [==>...........................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+128/279 [============>.................] - ETA: 3s - loss: 3.1481 - acc: 0.8047 - specificity: 0.8047 - sensitivity: 0.8047
+160/279 [================>.............] - ETA: 2s - loss: 3.2236 - acc: 0.8000 - specificity: 0.8000 - sensitivity: 0.8000
+192/279 [===================>..........] - ETA: 2s - loss: 3.4419 - acc: 0.7865 - specificity: 0.7865 - sensitivity: 0.7865
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 3.8406 - acc: 0.7617 - specificity: 0.7617 - sensitivity: 0.7617
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 47/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 6s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+128/279 [============>.................] - ETA: 3s - loss: 3.6518 - acc: 0.7734 - specificity: 0.7734 - sensitivity: 0.7734
+160/279 [================>.............] - ETA: 3s - loss: 3.8280 - acc: 0.7625 - specificity: 0.7625 - sensitivity: 0.7625
+192/279 [===================>..........] - ETA: 2s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 48/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 4s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+ 96/279 [=========>....................] - ETA: 3s - loss: 4.8690 - acc: 0.6979 - specificity: 0.6979 - sensitivity: 0.6979
+128/279 [============>.................] - ETA: 3s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+160/279 [================>.............] - ETA: 2s - loss: 4.4325 - acc: 0.7250 - specificity: 0.7250 - sensitivity: 0.7250
+192/279 [===================>..........] - ETA: 2s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 49/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 4s - loss: 2.7703 - acc: 0.8281 - specificity: 0.8281 - sensitivity: 0.8281
+ 96/279 [=========>....................] - ETA: 4s - loss: 2.3506 - acc: 0.8542 - specificity: 0.8542 - sensitivity: 0.8542
+128/279 [============>.................] - ETA: 3s - loss: 2.7703 - acc: 0.8281 - specificity: 0.8281 - sensitivity: 0.8281
+160/279 [================>.............] - ETA: 2s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+192/279 [===================>..........] - ETA: 2s - loss: 3.6098 - acc: 0.7760 - specificity: 0.7760 - sensitivity: 0.7760
+224/279 [=======================>......] - ETA: 1s - loss: 3.6697 - acc: 0.7723 - specificity: 0.7723 - sensitivity: 0.7723
+256/279 [==========================>...] - ETA: 0s - loss: 3.8406 - acc: 0.7617 - specificity: 0.7617 - sensitivity: 0.7617
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 50/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 4s - loss: 5.5406 - acc: 0.6562 - specificity: 0.6562 - sensitivity: 0.6562
+ 96/279 [=========>....................] - ETA: 3s - loss: 4.8690 - acc: 0.6979 - specificity: 0.6979 - sensitivity: 0.6979
+128/279 [============>.................] - ETA: 3s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+160/279 [================>.............] - ETA: 2s - loss: 5.2384 - acc: 0.6750 - specificity: 0.6750 - sensitivity: 0.6750
+192/279 [===================>..........] - ETA: 2s - loss: 4.9530 - acc: 0.6927 - specificity: 0.6927 - sensitivity: 0.6927
+224/279 [=======================>......] - ETA: 1s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+256/279 [==========================>...] - ETA: 0s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 51/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 1.0074 - acc: 0.9375 - specificity: 0.9375 - sensitivity: 0.9375
+ 64/279 [=====>........................] - ETA: 4s - loss: 2.7703 - acc: 0.8281 - specificity: 0.8281 - sensitivity: 0.8281
+ 96/279 [=========>....................] - ETA: 4s - loss: 2.5185 - acc: 0.8438 - specificity: 0.8438 - sensitivity: 0.8438
+128/279 [============>.................] - ETA: 3s - loss: 2.7703 - acc: 0.8281 - specificity: 0.8281 - sensitivity: 0.8281
+160/279 [================>.............] - ETA: 2s - loss: 3.4251 - acc: 0.7875 - specificity: 0.7875 - sensitivity: 0.7875
+192/279 [===================>..........] - ETA: 2s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+224/279 [=======================>......] - ETA: 1s - loss: 3.5978 - acc: 0.7768 - specificity: 0.7768 - sensitivity: 0.7768
+256/279 [==========================>...] - ETA: 0s - loss: 3.8406 - acc: 0.7617 - specificity: 0.7617 - sensitivity: 0.7617
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 52/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 2.5185 - acc: 0.8438 - specificity: 0.8438 - sensitivity: 0.8438
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 96/279 [=========>....................] - ETA: 3s - loss: 4.7011 - acc: 0.7083 - specificity: 0.7083 - sensitivity: 0.7083
+128/279 [============>.................] - ETA: 3s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+160/279 [================>.............] - ETA: 2s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+192/279 [===================>..........] - ETA: 2s - loss: 4.4493 - acc: 0.7240 - specificity: 0.7240 - sensitivity: 0.7240
+224/279 [=======================>......] - ETA: 1s - loss: 4.3173 - acc: 0.7321 - specificity: 0.7321 - sensitivity: 0.7321
+256/279 [==========================>...] - ETA: 0s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 53/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 4s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 2s - loss: 3.9456 - acc: 0.7552 - specificity: 0.7552 - sensitivity: 0.7552
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 54/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 3s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+128/279 [============>.................] - ETA: 3s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+160/279 [================>.............] - ETA: 2s - loss: 4.3317 - acc: 0.7312 - specificity: 0.7312 - sensitivity: 0.7312
+192/279 [===================>..........] - ETA: 2s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+224/279 [=======================>......] - ETA: 1s - loss: 4.2454 - acc: 0.7366 - specificity: 0.7366 - sensitivity: 0.7366
+256/279 [==========================>...] - ETA: 0s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 55/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+128/279 [============>.................] - ETA: 3s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+160/279 [================>.............] - ETA: 3s - loss: 4.2310 - acc: 0.7375 - specificity: 0.7375 - sensitivity: 0.7375
+192/279 [===================>..........] - ETA: 2s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+224/279 [=======================>......] - ETA: 1s - loss: 3.8137 - acc: 0.7634 - specificity: 0.7634 - sensitivity: 0.7634
+256/279 [==========================>...] - ETA: 0s - loss: 3.7147 - acc: 0.7695 - specificity: 0.7695 - sensitivity: 0.7695
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 56/100
+
+ 32/279 [==>...........................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+128/279 [============>.................] - ETA: 3s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+160/279 [================>.............] - ETA: 3s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+224/279 [=======================>......] - ETA: 1s - loss: 3.6697 - acc: 0.7723 - specificity: 0.7723 - sensitivity: 0.7723
+256/279 [==========================>...] - ETA: 0s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 57/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 2.5185 - acc: 0.8438 - specificity: 0.8438 - sensitivity: 0.8438
+ 64/279 [=====>........................] - ETA: 6s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+128/279 [============>.................] - ETA: 3s - loss: 3.6518 - acc: 0.7734 - specificity: 0.7734 - sensitivity: 0.7734
+160/279 [================>.............] - ETA: 2s - loss: 3.2236 - acc: 0.8000 - specificity: 0.8000 - sensitivity: 0.8000
+192/279 [===================>..........] - ETA: 2s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+224/279 [=======================>......] - ETA: 1s - loss: 3.8856 - acc: 0.7589 - specificity: 0.7589 - sensitivity: 0.7589
+256/279 [==========================>...] - ETA: 0s - loss: 3.8406 - acc: 0.7617 - specificity: 0.7617 - sensitivity: 0.7617
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 58/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+160/279 [================>.............] - ETA: 2s - loss: 4.2310 - acc: 0.7375 - specificity: 0.7375 - sensitivity: 0.7375
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 59/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 6s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.3579 - acc: 0.7917 - specificity: 0.7917 - sensitivity: 0.7917
+128/279 [============>.................] - ETA: 3s - loss: 3.3999 - acc: 0.7891 - specificity: 0.7891 - sensitivity: 0.7891
+160/279 [================>.............] - ETA: 3s - loss: 3.4251 - acc: 0.7875 - specificity: 0.7875 - sensitivity: 0.7875
+192/279 [===================>..........] - ETA: 2s - loss: 3.3579 - acc: 0.7917 - specificity: 0.7917 - sensitivity: 0.7917
+224/279 [=======================>......] - ETA: 1s - loss: 3.4539 - acc: 0.7857 - specificity: 0.7857 - sensitivity: 0.7857
+256/279 [==========================>...] - ETA: 0s - loss: 3.4629 - acc: 0.7852 - specificity: 0.7852 - sensitivity: 0.7852
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 60/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.3579 - acc: 0.7917 - specificity: 0.7917 - sensitivity: 0.7917
+128/279 [============>.................] - ETA: 3s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+160/279 [================>.............] - ETA: 2s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+192/279 [===================>..........] - ETA: 2s - loss: 3.3579 - acc: 0.7917 - specificity: 0.7917 - sensitivity: 0.7917
+224/279 [=======================>......] - ETA: 1s - loss: 3.7417 - acc: 0.7679 - specificity: 0.7679 - sensitivity: 0.7679
+256/279 [==========================>...] - ETA: 0s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+279/279 [==============================] - 6s 23ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 61/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+128/279 [============>.................] - ETA: 3s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+160/279 [================>.............] - ETA: 3s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 2s - loss: 3.9456 - acc: 0.7552 - specificity: 0.7552 - sensitivity: 0.7552
+224/279 [=======================>......] - ETA: 1s - loss: 4.2454 - acc: 0.7366 - specificity: 0.7366 - sensitivity: 0.7366
+256/279 [==========================>...] - ETA: 0s - loss: 4.2184 - acc: 0.7383 - specificity: 0.7383 - sensitivity: 0.7383
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 62/100
+
+ 32/279 [==>...........................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 96/279 [=========>....................] - ETA: 3s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+128/279 [============>.................] - ETA: 3s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+224/279 [=======================>......] - ETA: 1s - loss: 3.7417 - acc: 0.7679 - specificity: 0.7679 - sensitivity: 0.7679
+256/279 [==========================>...] - ETA: 0s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 63/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+128/279 [============>.................] - ETA: 3s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+160/279 [================>.............] - ETA: 3s - loss: 3.4251 - acc: 0.7875 - specificity: 0.7875 - sensitivity: 0.7875
+192/279 [===================>..........] - ETA: 2s - loss: 3.6098 - acc: 0.7760 - specificity: 0.7760 - sensitivity: 0.7760
+224/279 [=======================>......] - ETA: 1s - loss: 3.7417 - acc: 0.7679 - specificity: 0.7679 - sensitivity: 0.7679
+256/279 [==========================>...] - ETA: 0s - loss: 4.2184 - acc: 0.7383 - specificity: 0.7383 - sensitivity: 0.7383
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 64/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 1.5111 - acc: 0.9062 - specificity: 0.9062 - sensitivity: 0.9062
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 96/279 [=========>....................] - ETA: 4s - loss: 2.6863 - acc: 0.8333 - specificity: 0.8333 - sensitivity: 0.8333
+128/279 [============>.................] - ETA: 3s - loss: 2.6444 - acc: 0.8359 - specificity: 0.8359 - sensitivity: 0.8359
+160/279 [================>.............] - ETA: 2s - loss: 2.8207 - acc: 0.8250 - specificity: 0.8250 - sensitivity: 0.8250
+192/279 [===================>..........] - ETA: 1s - loss: 3.3579 - acc: 0.7917 - specificity: 0.7917 - sensitivity: 0.7917
+224/279 [=======================>......] - ETA: 1s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+256/279 [==========================>...] - ETA: 0s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 65/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+160/279 [================>.............] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+192/279 [===================>..........] - ETA: 2s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+224/279 [=======================>......] - ETA: 1s - loss: 4.1734 - acc: 0.7411 - specificity: 0.7411 - sensitivity: 0.7411
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 66/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+128/279 [============>.................] - ETA: 3s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+160/279 [================>.............] - ETA: 2s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 2s - loss: 3.3579 - acc: 0.7917 - specificity: 0.7917 - sensitivity: 0.7917
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 67/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 5.5406 - acc: 0.6562 - specificity: 0.6562 - sensitivity: 0.6562
+ 64/279 [=====>........................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.4073 - acc: 0.7266 - specificity: 0.7266 - sensitivity: 0.7266
+160/279 [================>.............] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+192/279 [===================>..........] - ETA: 2s - loss: 4.1135 - acc: 0.7448 - specificity: 0.7448 - sensitivity: 0.7448
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 68/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 64/279 [=====>........................] - ETA: 5s - loss: 5.5406 - acc: 0.6562 - specificity: 0.6562 - sensitivity: 0.6562
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+160/279 [================>.............] - ETA: 2s - loss: 3.7273 - acc: 0.7688 - specificity: 0.7688 - sensitivity: 0.7688
+192/279 [===================>..........] - ETA: 1s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 69/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 3.6098 - acc: 0.7760 - specificity: 0.7760 - sensitivity: 0.7760
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 70/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 4s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+128/279 [============>.................] - ETA: 3s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+160/279 [================>.............] - ETA: 2s - loss: 4.1303 - acc: 0.7438 - specificity: 0.7438 - sensitivity: 0.7438
+192/279 [===================>..........] - ETA: 1s - loss: 3.9456 - acc: 0.7552 - specificity: 0.7552 - sensitivity: 0.7552
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 71/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 64/279 [=====>........................] - ETA: 6s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.4073 - acc: 0.7266 - specificity: 0.7266 - sensitivity: 0.7266
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 4.3653 - acc: 0.7292 - specificity: 0.7292 - sensitivity: 0.7292
+224/279 [=======================>......] - ETA: 1s - loss: 4.3893 - acc: 0.7277 - specificity: 0.7277 - sensitivity: 0.7277
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 26ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 72/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+160/279 [================>.............] - ETA: 2s - loss: 4.4325 - acc: 0.7250 - specificity: 0.7250 - sensitivity: 0.7250
+192/279 [===================>..........] - ETA: 2s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+224/279 [=======================>......] - ETA: 1s - loss: 4.3173 - acc: 0.7321 - specificity: 0.7321 - sensitivity: 0.7321
+256/279 [==========================>...] - ETA: 0s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 73/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 64/279 [=====>........................] - ETA: 4s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+160/279 [================>.............] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+192/279 [===================>..........] - ETA: 2s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+224/279 [=======================>......] - ETA: 1s - loss: 3.5978 - acc: 0.7768 - specificity: 0.7768 - sensitivity: 0.7768
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 74/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.3579 - acc: 0.7917 - specificity: 0.7917 - sensitivity: 0.7917
+128/279 [============>.................] - ETA: 3s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+160/279 [================>.............] - ETA: 2s - loss: 3.2236 - acc: 0.8000 - specificity: 0.8000 - sensitivity: 0.8000
+192/279 [===================>..........] - ETA: 1s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+224/279 [=======================>......] - ETA: 1s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+256/279 [==========================>...] - ETA: 0s - loss: 3.8406 - acc: 0.7617 - specificity: 0.7617 - sensitivity: 0.7617
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 75/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+128/279 [============>.................] - ETA: 3s - loss: 4.1554 - acc: 0.7422 - specificity: 0.7422 - sensitivity: 0.7422
+160/279 [================>.............] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+192/279 [===================>..........] - ETA: 2s - loss: 3.9456 - acc: 0.7552 - specificity: 0.7552 - sensitivity: 0.7552
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 76/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+128/279 [============>.................] - ETA: 3s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 3.9456 - acc: 0.7552 - specificity: 0.7552 - sensitivity: 0.7552
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 3.8406 - acc: 0.7617 - specificity: 0.7617 - sensitivity: 0.7617
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 77/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 6s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 5s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+128/279 [============>.................] - ETA: 4s - loss: 3.6518 - acc: 0.7734 - specificity: 0.7734 - sensitivity: 0.7734
+160/279 [================>.............] - ETA: 3s - loss: 3.7273 - acc: 0.7688 - specificity: 0.7688 - sensitivity: 0.7688
+192/279 [===================>..........] - ETA: 2s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 8s 27ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 78/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 1s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+224/279 [=======================>......] - ETA: 1s - loss: 3.8856 - acc: 0.7589 - specificity: 0.7589 - sensitivity: 0.7589
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 79/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.3579 - acc: 0.7917 - specificity: 0.7917 - sensitivity: 0.7917
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 4.1303 - acc: 0.7438 - specificity: 0.7438 - sensitivity: 0.7438
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 4.1734 - acc: 0.7411 - specificity: 0.7411 - sensitivity: 0.7411
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 80/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 5s - loss: 2.5185 - acc: 0.8438 - specificity: 0.8438 - sensitivity: 0.8438
+ 96/279 [=========>....................] - ETA: 4s - loss: 2.8542 - acc: 0.8229 - specificity: 0.8229 - sensitivity: 0.8229
+128/279 [============>.................] - ETA: 3s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+160/279 [================>.............] - ETA: 2s - loss: 3.7273 - acc: 0.7688 - specificity: 0.7688 - sensitivity: 0.7688
+192/279 [===================>..........] - ETA: 2s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+224/279 [=======================>......] - ETA: 1s - loss: 3.5978 - acc: 0.7768 - specificity: 0.7768 - sensitivity: 0.7768
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 81/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+128/279 [============>.................] - ETA: 3s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 3.6098 - acc: 0.7760 - specificity: 0.7760 - sensitivity: 0.7760
+224/279 [=======================>......] - ETA: 1s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+256/279 [==========================>...] - ETA: 0s - loss: 3.7147 - acc: 0.7695 - specificity: 0.7695 - sensitivity: 0.7695
+279/279 [==============================] - 7s 26ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 82/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 4s - loss: 2.7703 - acc: 0.8281 - specificity: 0.8281 - sensitivity: 0.8281
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+128/279 [============>.................] - ETA: 3s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+160/279 [================>.............] - ETA: 2s - loss: 4.1303 - acc: 0.7438 - specificity: 0.7438 - sensitivity: 0.7438
+192/279 [===================>..........] - ETA: 2s - loss: 3.6937 - acc: 0.7708 - specificity: 0.7708 - sensitivity: 0.7708
+224/279 [=======================>......] - ETA: 1s - loss: 3.8856 - acc: 0.7589 - specificity: 0.7589 - sensitivity: 0.7589
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 83/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+128/279 [============>.................] - ETA: 3s - loss: 3.3999 - acc: 0.7891 - specificity: 0.7891 - sensitivity: 0.7891
+160/279 [================>.............] - ETA: 2s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+192/279 [===================>..........] - ETA: 2s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+224/279 [=======================>......] - ETA: 1s - loss: 3.8856 - acc: 0.7589 - specificity: 0.7589 - sensitivity: 0.7589
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 84/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+128/279 [============>.................] - ETA: 3s - loss: 3.3999 - acc: 0.7891 - specificity: 0.7891 - sensitivity: 0.7891
+160/279 [================>.............] - ETA: 2s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 85/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+128/279 [============>.................] - ETA: 3s - loss: 4.4073 - acc: 0.7266 - specificity: 0.7266 - sensitivity: 0.7266
+160/279 [================>.............] - ETA: 2s - loss: 4.4325 - acc: 0.7250 - specificity: 0.7250 - sensitivity: 0.7250
+192/279 [===================>..........] - ETA: 2s - loss: 4.3653 - acc: 0.7292 - specificity: 0.7292 - sensitivity: 0.7292
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 86/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 2.5185 - acc: 0.8438 - specificity: 0.8438 - sensitivity: 0.8438
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+128/279 [============>.................] - ETA: 3s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+160/279 [================>.............] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+192/279 [===================>..........] - ETA: 2s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+224/279 [=======================>......] - ETA: 1s - loss: 4.2454 - acc: 0.7366 - specificity: 0.7366 - sensitivity: 0.7366
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 87/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 88/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+128/279 [============>.................] - ETA: 3s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+160/279 [================>.............] - ETA: 2s - loss: 4.2310 - acc: 0.7375 - specificity: 0.7375 - sensitivity: 0.7375
+192/279 [===================>..........] - ETA: 1s - loss: 4.4493 - acc: 0.7240 - specificity: 0.7240 - sensitivity: 0.7240
+224/279 [=======================>......] - ETA: 1s - loss: 4.2454 - acc: 0.7366 - specificity: 0.7366 - sensitivity: 0.7366
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 89/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 5.5406 - acc: 0.6562 - specificity: 0.6562 - sensitivity: 0.6562
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+192/279 [===================>..........] - ETA: 2s - loss: 4.4493 - acc: 0.7240 - specificity: 0.7240 - sensitivity: 0.7240
+224/279 [=======================>......] - ETA: 1s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 90/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 4s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 96/279 [=========>....................] - ETA: 4s - loss: 5.2048 - acc: 0.6771 - specificity: 0.6771 - sensitivity: 0.6771
+128/279 [============>.................] - ETA: 3s - loss: 4.9110 - acc: 0.6953 - specificity: 0.6953 - sensitivity: 0.6953
+160/279 [================>.............] - ETA: 2s - loss: 4.3317 - acc: 0.7312 - specificity: 0.7312 - sensitivity: 0.7312
+192/279 [===================>..........] - ETA: 1s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 6s 22ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 91/100
+
+ 32/279 [==>...........................] - ETA: 7s - loss: 1.5111 - acc: 0.9062 - specificity: 0.9062 - sensitivity: 0.9062
+ 64/279 [=====>........................] - ETA: 6s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.3653 - acc: 0.7292 - specificity: 0.7292 - sensitivity: 0.7292
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 3s - loss: 3.7273 - acc: 0.7688 - specificity: 0.7688 - sensitivity: 0.7688
+192/279 [===================>..........] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 26ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 92/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.0221 - acc: 0.8125 - specificity: 0.8125 - sensitivity: 0.8125
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+128/279 [============>.................] - ETA: 3s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+160/279 [================>.............] - ETA: 2s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 2s - loss: 3.9456 - acc: 0.7552 - specificity: 0.7552 - sensitivity: 0.7552
+224/279 [=======================>......] - ETA: 1s - loss: 3.8137 - acc: 0.7634 - specificity: 0.7634 - sensitivity: 0.7634
+256/279 [==========================>...] - ETA: 0s - loss: 3.8406 - acc: 0.7617 - specificity: 0.7617 - sensitivity: 0.7617
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 93/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 5s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 2s - loss: 4.1135 - acc: 0.7448 - specificity: 0.7448 - sensitivity: 0.7448
+224/279 [=======================>......] - ETA: 1s - loss: 4.1015 - acc: 0.7455 - specificity: 0.7455 - sensitivity: 0.7455
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 94/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.3579 - acc: 0.7917 - specificity: 0.7917 - sensitivity: 0.7917
+128/279 [============>.................] - ETA: 3s - loss: 3.2740 - acc: 0.7969 - specificity: 0.7969 - sensitivity: 0.7969
+160/279 [================>.............] - ETA: 2s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+192/279 [===================>..........] - ETA: 2s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 3.9666 - acc: 0.7539 - specificity: 0.7539 - sensitivity: 0.7539
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 95/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.7011 - acc: 0.7083 - specificity: 0.7083 - sensitivity: 0.7083
+128/279 [============>.................] - ETA: 3s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+160/279 [================>.............] - ETA: 2s - loss: 4.1303 - acc: 0.7438 - specificity: 0.7438 - sensitivity: 0.7438
+192/279 [===================>..........] - ETA: 2s - loss: 4.1135 - acc: 0.7448 - specificity: 0.7448 - sensitivity: 0.7448
+224/279 [=======================>......] - ETA: 1s - loss: 3.8137 - acc: 0.7634 - specificity: 0.7634 - sensitivity: 0.7634
+256/279 [==========================>...] - ETA: 0s - loss: 3.8406 - acc: 0.7617 - specificity: 0.7617 - sensitivity: 0.7617
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 96/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 4s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+128/279 [============>.................] - ETA: 3s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+160/279 [================>.............] - ETA: 2s - loss: 4.2310 - acc: 0.7375 - specificity: 0.7375 - sensitivity: 0.7375
+192/279 [===================>..........] - ETA: 2s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 97/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 64/279 [=====>........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+128/279 [============>.................] - ETA: 3s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+160/279 [================>.............] - ETA: 2s - loss: 3.8280 - acc: 0.7625 - specificity: 0.7625 - sensitivity: 0.7625
+192/279 [===================>..........] - ETA: 2s - loss: 3.7777 - acc: 0.7656 - specificity: 0.7656 - sensitivity: 0.7656
+224/279 [=======================>......] - ETA: 1s - loss: 3.8137 - acc: 0.7634 - specificity: 0.7634 - sensitivity: 0.7634
+256/279 [==========================>...] - ETA: 0s - loss: 3.8406 - acc: 0.7617 - specificity: 0.7617 - sensitivity: 0.7617
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 98/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 5.5406 - acc: 0.6562 - specificity: 0.6562 - sensitivity: 0.6562
+ 64/279 [=====>........................] - ETA: 5s - loss: 5.0369 - acc: 0.6875 - specificity: 0.6875 - sensitivity: 0.6875
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.3653 - acc: 0.7292 - specificity: 0.7292 - sensitivity: 0.7292
+128/279 [============>.................] - ETA: 3s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+160/279 [================>.............] - ETA: 2s - loss: 3.9288 - acc: 0.7562 - specificity: 0.7562 - sensitivity: 0.7562
+192/279 [===================>..........] - ETA: 1s - loss: 3.8616 - acc: 0.7604 - specificity: 0.7604 - sensitivity: 0.7604
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 3.9036 - acc: 0.7578 - specificity: 0.7578 - sensitivity: 0.7578
+279/279 [==============================] - 7s 24ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 99/100
+
+ 32/279 [==>...........................] - ETA: 6s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+ 64/279 [=====>........................] - ETA: 5s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+ 96/279 [=========>....................] - ETA: 4s - loss: 3.5258 - acc: 0.7812 - specificity: 0.7812 - sensitivity: 0.7812
+128/279 [============>.................] - ETA: 3s - loss: 3.3999 - acc: 0.7891 - specificity: 0.7891 - sensitivity: 0.7891
+160/279 [================>.............] - ETA: 2s - loss: 3.6266 - acc: 0.7750 - specificity: 0.7750 - sensitivity: 0.7750
+192/279 [===================>..........] - ETA: 2s - loss: 3.6098 - acc: 0.7760 - specificity: 0.7760 - sensitivity: 0.7760
+224/279 [=======================>......] - ETA: 1s - loss: 3.9576 - acc: 0.7545 - specificity: 0.7545 - sensitivity: 0.7545
+256/279 [==========================>...] - ETA: 0s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+279/279 [==============================] - 7s 25ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+Epoch 100/100
+
+ 32/279 [==>...........................] - ETA: 5s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+ 64/279 [=====>........................] - ETA: 4s - loss: 4.2814 - acc: 0.7344 - specificity: 0.7344 - sensitivity: 0.7344
+ 96/279 [=========>....................] - ETA: 4s - loss: 4.7011 - acc: 0.7083 - specificity: 0.7083 - sensitivity: 0.7083
+128/279 [============>.................] - ETA: 3s - loss: 4.7851 - acc: 0.7031 - specificity: 0.7031 - sensitivity: 0.7031
+160/279 [================>.............] - ETA: 2s - loss: 4.5332 - acc: 0.7188 - specificity: 0.7188 - sensitivity: 0.7188
+192/279 [===================>..........] - ETA: 1s - loss: 4.1974 - acc: 0.7396 - specificity: 0.7396 - sensitivity: 0.7396
+224/279 [=======================>......] - ETA: 1s - loss: 4.0295 - acc: 0.7500 - specificity: 0.7500 - sensitivity: 0.7500
+256/279 [==========================>...] - ETA: 0s - loss: 4.0925 - acc: 0.7461 - specificity: 0.7461 - sensitivity: 0.7461
+279/279 [==============================] - 6s 23ms/step - loss: 3.9862 - acc: 0.7527 - specificity: 0.7527 - sensitivity: 0.7527
+
+32/47 [===================>..........] - ETA: 0s
+47/47 [==============================] - 0s 10ms/step
+Using TensorFlow backend.
+
+On Test Data:
+Loss -> 2.401
+Accuracy -> 0.851%
+Specificity -> 0.851%
+Sensitivity -> 0.851%
+
+Saving model 003...
