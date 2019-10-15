@@ -2,6 +2,10 @@ import keras
 from sklearn.model_selection import train_test_split
 import numpy as np
 
+import sys
+sys.path.append('../../')
+import metrics
+
 # Just disables the warning, doesn't enable AVX/FMA
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -12,6 +16,8 @@ print("Loading training and testing data from disk...")
 # Loading in the data
 X = np.load("../../../data/X.npy")
 Y = np.load("../../../data/Y.npy")
+
+#-------------------------------------DONT EDIT ABOVE LINE-------------------------------------------------
 
 # Splitting the data into training and testing
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 1/7)
@@ -35,7 +41,7 @@ print("Training...")
 # Configure the training details, e.g. what optimiser to use
 model.compile(loss = keras.losses.categorical_crossentropy,
              optimizer = keras.optimizers.Adadelta(),
-             metrics = ['accuracy'])
+             metrics = ['accuracy', metrics.specificity, metrics.sensitivity])
 
 # Fit the model. The loss and accuracy will be outputed by default.
 history = model.fit(X_train, Y_train,
@@ -44,11 +50,18 @@ history = model.fit(X_train, Y_train,
 
 # Evaluate the performance
 performance = model.evaluate(X_test, Y_test)
-print('The loss is %.3f and the accuracy is %.3f on the test data' 
-       % tuple(performance))
+print(
+'''
+On Test Data:
+Loss -> %.3f
+Accuracy -> %.3f%%
+Specificity -> %.3f%%
+Sensitivity -> %.3f%%
+'''
+% tuple(performance))
 
 
-print("Saving the 002 model...")
+print("Saving model 002...")
 
 # Serialise model to JSON
 model_json = model.to_json()
