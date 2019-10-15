@@ -59,7 +59,7 @@ _Final presentation marking instruction_:
 > understand the future implications and significance? Did the speakers make clear the distinction between background and 
 > their own work/ analysis/ findings?
 
-Answers to questions: Did the students know the answers to relevant questions? Were the answers explained in a comprehensible way? Did the student demonstrate reserves of extra knowledge or was a lack of knowledge exposed?
+> Answers to questions: Did the students know the answers to relevant questions? Were the answers explained in a comprehensible way? Did the student demonstrate reserves of extra knowledge or was a lack of knowledge exposed?
 
 
 [Final presentation](https://docs.google.com/presentation/d/1zCxXqPKQvmjdx1TnQk6hia9lnGsjbgGn37BWwax3OFE/edit?usp=sharing)
