@@ -62,4 +62,4 @@ _Final presentation marking instruction_:
 > Answers to questions: Did the students know the answers to relevant questions? Were the answers explained in a comprehensible way? Did the student demonstrate reserves of extra knowledge or was a lack of knowledge exposed?
 
 
-[Final presentation](https://docs.google.com/presentation/d/1zCxXqPKQvmjdx1TnQk6hia9lnGsjbgGn37BWwax3OFE/edit?usp=sharing)
+[Final presentation](https://docs.google.com/presentation/d/1rER9d3pVCVqKfDqyKioJYhP68fLMuJx1W1VK5d6EtXQ/edit?ts=5da593fd#slide=id.gc6f73a04f_0_0)
