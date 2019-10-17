@@ -1,57 +1,81 @@
 #custom metrics i.e. specificity and sensitivity
 
 import keras.backend as K
+import numpy as np
+import tensorflow as tf
 
-#custom specificty/sensitivity due to keras not having these
+#ouput binary confusion matrix
 
-def specificity(x_pred, x_true):
+def confusion_matrix(y_pred, y_true):
+    not_true = 1 - y_true
+    not_pred = 1 - y_pred
+    
+    FP = K.sum(not_true * y_pred).eval(session = tf.Session())
+    TN = K.sum(not_true * not_pred).eval(session = tf.Session())
+
+    FN = K.sum(y_true * not_pred).eval(session = tf.Session())
+    TP = K.sum(y_true * y_pred).eval(session = tf.Session())
+    
+    print('''
+       BINARY CONFUSION MATRIX
+	      +-----------------+
+    	      |    predicted    |
+    +---------+-----------------+
+    |actually |True	|False	|
+    |---------|---------|-------|
+    |True     |{}	|{}	|
+    |False    |{}	|{}	|
+    +---------+---------+-------+
+    '''.format(TP, FN, FP, TN))
+
+#custom specificity/sensitivity due to keras not having these
+
+def spec(y_pred, y_true):
 
   """
   specificity:
-  x_pred = matrix of labels that are predicted to be true
-  x_true = labels that are true by the GT
+  y_pred = matrix of labels that are predicted to be true
+  y_true = labels that are true by the GT
   not_true = labels that are not true by the GT
   not_pred = labels that are predicted to be not true
   return spec
   """
 
-  not_true = 1-x_true
+  not_true = 1 - y_true
 
-  not_pred = 1-x_pred
+  not_pred = 1 - y_pred
 
-  FP = K.sum(not_true * x_pred)
+  FP = K.sum(not_true * y_pred)
 
   TN = K.sum(not_true * not_pred)
 
-  spec = TN/(TN+FP)
+  spec = TN / (TN + FP)
 
   return spec
 
 
-def sensitivity(x_pred, x_true):
+def sens(y_pred, y_true):
 
   """
   sensitivity:
-  x_pred = matrix of labels that are predicted to be true
-  x_true = labels that are true by the GT
+  y_pred = matrix of labels that are predicted to be true
+  y_true = labels that are true by the GT
   not_true = labels that are not true by the GT
   not_pred = labels that are predicted to be not true
   return sens
   """
 
-  # subtracting the tensors x_true and x_pred from 1 should give their complement tensors
+  # subtracting the tensors y_true and y_pred from 1 should give their complement tensors
 
   # since this is a binary classification
 
-  not_true = 1-x_true
+  not_true = 1 - y_true
 
-  not_pred = 1-x_pred
+  not_pred = 1 - y_pred
 
-# FN = K.sum(not_true * x_pred)
-  FN = K.sum(x_true * not_pred)
+  FN = K.sum(y_true * not_pred)
+  TP = K.sum(y_true * y_pred)
 
-  TP = K.sum(x_true * x_pred)
-
-  sens = TP/(TP + FN)
+  sens = TP / (TP + FN)
 
   return sens

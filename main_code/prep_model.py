@@ -4,7 +4,7 @@ import csv
 import numpy as np
 import nibabel as nib
 import matplotlib.pyplot as plt # Testing
-
+from keras.preprocessing.image import ImageDataGenerator
 
 # Just disables the warning, doesn't enable AVX/FMA
 import os
@@ -20,7 +20,7 @@ print("Preparing images and labels...")
 
 # Declaring empty lists to hold the image and label data
 X = []
-Y = []
+y = []
 index = 0
 for index in range(len(lines)):
     entry = lines[index]
@@ -40,16 +40,12 @@ for index in range(len(lines)):
 
     merged_crop = np.dstack((t2w_cropped_image, ktrans_cropped_image, adc_cropped_image))
     
-    # Testing
-    #plt.imshow(merged_crop)
-    #plt.show()
-
     X.append(merged_crop)
-    Y.append(label)
+    y.append(label)
 
 # Turning the image and label lists to a numpy arrays
 X = np.array(X)
-Y = np.array(Y)
+y = np.array(y)
 
 print('Images shape:', X.shape) # Testing
 
@@ -57,11 +53,25 @@ print('Images shape:', X.shape) # Testing
 X = X.astype('float32') / 255.0
 
 # Preprocessing the label data
-Y = keras.utils.to_categorical(Y, 2)
+y = keras.utils.to_categorical(y, 2)
 
+
+    ## Augmenting the data
+datagen = ImageDataGenerator(rotation_range = 20,
+        horizontal_flip = True,
+        zoom_range = [0.5, 1])
+
+itr = gen = datagen.flow(X, y, batch_size = X.shape[0])
+
+for i in range(10):
+    X_new, y_new = itr.next()
+    X = np.concatenate([X, X_new])
+    y = np.concatenate([y, y_new])
+
+print('Augmented Images shape:', X.shape) # Testing
 
 print("Saving the data...")
 
     ## Saving the data
 np.save("../data/X.npy", X)
-np.save("../data/Y.npy", Y)
+np.save("../data/y.npy", y)

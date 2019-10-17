@@ -13,7 +13,7 @@ print("Loading X data from disk...")
 X = np.load("../../../data/X.npy")
 
 # Image dimensions
-num_images, img_rows, img_cols, channels = X.shape # (326, 147, 147, 3)
+num_images, img_rows, img_cols, channels = X.shape # (3586, 147, 147, 3)
 
 #-------------------------------------DONT EDIT ABOVE LINE-------------------------------------------------
 
@@ -49,11 +49,11 @@ print("Saving model 003 to disk...")
 
 # Serialise model to JSON
 model_json = model.to_json()
-with open("../../../data/models/model_003/model_003.json", "w") as json_file:
+with open("../../../data/models/model_003/model_003_init.json", "w") as json_file:
     json_file.write(model_json)
 
 # Serialise weights to HDF5
-model.save_weights("../../../data/models/model_003/model_003.h5")
+model.save_weights("../../../data/models/model_003/model_003_init.h5")
 
 
 # Writing the model summary to a file
