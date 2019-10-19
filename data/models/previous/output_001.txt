@@ -1,0 +1,325 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Using TensorFlow backend.
+Loading training and testing data from disk...
+Loading model from disk...
+Training...
+Traceback (most recent call last):
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1278, in _do_call
+    return fn(*args)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1263, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1350, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 451, in compile
+    handle_metrics(output_metrics)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 420, in handle_metrics
+    mask=masks[i])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training_utils.py", line 404, in weighted
+    score_array = fn(y_true, y_pred)
+  File "../../metrics.py", line 157, in spec
+    y_pred_np = tf.Session().run(y_pred)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 877, in run
+    run_metadata_ptr)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1100, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1272, in _do_run
+    run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1291, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Caused by op 'dense_1_target', defined at:
+  File "training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 238, in compile
+    dtype=K.dtype(self.outputs[i]))
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 517, in placeholder
+    x = tf.placeholder(dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1735, in placeholder
+    return gen_array_ops.placeholder(dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4925, in placeholder
+    "Placeholder", dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 454, in new_func
+    return func(*args, **kwargs)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3155, in create_op
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1717, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Using TensorFlow backend.
+Loading training and testing data from disk...
+Loading model from disk...
+Training...
+Traceback (most recent call last):
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1278, in _do_call
+    return fn(*args)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1263, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1350, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 451, in compile
+    handle_metrics(output_metrics)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 420, in handle_metrics
+    mask=masks[i])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training_utils.py", line 404, in weighted
+    score_array = fn(y_true, y_pred)
+  File "../../metrics.py", line 157, in spec
+    y_pred_np = tf.Session().run(y_pred)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 877, in run
+    run_metadata_ptr)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1100, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1272, in _do_run
+    run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1291, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Caused by op 'dense_1_target', defined at:
+  File "training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 238, in compile
+    dtype=K.dtype(self.outputs[i]))
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 517, in placeholder
+    x = tf.placeholder(dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1735, in placeholder
+    return gen_array_ops.placeholder(dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4925, in placeholder
+    "Placeholder", dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 454, in new_func
+    return func(*args, **kwargs)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3155, in create_op
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1717, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Using TensorFlow backend.
+Loading training and testing data from disk...
+Loading model from disk...
+Training...
+Traceback (most recent call last):
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1278, in _do_call
+    return fn(*args)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1263, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1350, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 451, in compile
+    handle_metrics(output_metrics)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 420, in handle_metrics
+    mask=masks[i])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training_utils.py", line 404, in weighted
+    score_array = fn(y_true, y_pred)
+  File "../../metrics.py", line 157, in spec
+    y_pred_np = tf.Session().run(y_pred)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 877, in run
+    run_metadata_ptr)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1100, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1272, in _do_run
+    run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1291, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Caused by op 'dense_1_target', defined at:
+  File "training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 238, in compile
+    dtype=K.dtype(self.outputs[i]))
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 517, in placeholder
+    x = tf.placeholder(dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1735, in placeholder
+    return gen_array_ops.placeholder(dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4925, in placeholder
+    "Placeholder", dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 454, in new_func
+    return func(*args, **kwargs)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3155, in create_op
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1717, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Using TensorFlow backend.
+Loading training and testing data from disk...
+Loading model from disk...
+Training...
+Traceback (most recent call last):
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1278, in _do_call
+    return fn(*args)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1263, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1350, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 451, in compile
+    handle_metrics(output_metrics)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 420, in handle_metrics
+    mask=masks[i])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training_utils.py", line 404, in weighted
+    score_array = fn(y_true, y_pred)
+  File "../../metrics.py", line 157, in spec
+    y_pred_np = tf.Session().run(y_pred)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 877, in run
+    run_metadata_ptr)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1100, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1272, in _do_run
+    run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1291, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Caused by op 'dense_1_target', defined at:
+  File "training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 238, in compile
+    dtype=K.dtype(self.outputs[i]))
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 517, in placeholder
+    x = tf.placeholder(dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1735, in placeholder
+    return gen_array_ops.placeholder(dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4925, in placeholder
+    "Placeholder", dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 454, in new_func
+    return func(*args, **kwargs)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3155, in create_op
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1717, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Using TensorFlow backend.
+Loading training and testing data from disk...
+Loading model from disk...
+Training...
+Traceback (most recent call last):
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1278, in _do_call
+    return fn(*args)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1263, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1350, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 451, in compile
+    handle_metrics(output_metrics)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 420, in handle_metrics
+    mask=masks[i])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training_utils.py", line 404, in weighted
+    score_array = fn(y_true, y_pred)
+  File "../../metrics.py", line 157, in spec
+    y_pred_np = tf.Session().run(y_pred)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 877, in run
+    run_metadata_ptr)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1100, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1272, in _do_run
+    run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1291, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Caused by op 'dense_1_target', defined at:
+  File "training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 238, in compile
+    dtype=K.dtype(self.outputs[i]))
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 517, in placeholder
+    x = tf.placeholder(dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1735, in placeholder
+    return gen_array_ops.placeholder(dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4925, in placeholder
+    "Placeholder", dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 454, in new_func
+    return func(*args, **kwargs)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3155, in create_op
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1717, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Terminated
+Terminated

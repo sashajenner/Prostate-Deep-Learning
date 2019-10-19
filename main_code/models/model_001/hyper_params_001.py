@@ -22,6 +22,7 @@ print("Building model...")
 
 # Initialise the model, it's empty at the beginning
 model = keras.models.Sequential()
+# Residual neural network - short circuit layer
 
 # Add the first convolutional layer
 # SeparationalConv2D?

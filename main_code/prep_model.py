@@ -55,7 +55,6 @@ X = X.astype('float32') / 255.0
 # Preprocessing the label data
 y = keras.utils.to_categorical(y, 2)
 
-
     ## Augmenting the data
 datagen = ImageDataGenerator(rotation_range = 20,
         horizontal_flip = True,
@@ -67,6 +66,8 @@ for i in range(10):
     X_new, y_new = itr.next()
     X = np.concatenate([X, X_new])
     y = np.concatenate([y, y_new])
+
+#print(list(y[:,1]).count(1), "/", len(list(y))) # Testing
 
 print('Augmented Images shape:', X.shape) # Testing
 

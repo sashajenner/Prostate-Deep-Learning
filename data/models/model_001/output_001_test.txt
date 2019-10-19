@@ -1,0 +1,278 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Using TensorFlow backend.
+Loading training and testing data from disk...
+Loading model from disk...
+Training...
+Traceback (most recent call last):
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1278, in _do_call
+    return fn(*args)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1263, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1350, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "test_training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 451, in compile
+    handle_metrics(output_metrics)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 420, in handle_metrics
+    mask=masks[i])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training_utils.py", line 404, in weighted
+    score_array = fn(y_true, y_pred)
+  File "../../metrics.py", line 157, in spec
+    print("Spec", spec_value(K.eval(y_pred), K.eval(y_true))) # Testing
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 673, in eval
+    return to_dense(x).eval(session=get_session())
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 680, in eval
+    return _eval_using_default_session(self, feed_dict, self.graph, session)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 4951, in _eval_using_default_session
+    return session.run(tensors, feed_dict)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 877, in run
+    run_metadata_ptr)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1100, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1272, in _do_run
+    run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1291, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Caused by op 'dense_1_target', defined at:
+  File "test_training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 238, in compile
+    dtype=K.dtype(self.outputs[i]))
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 517, in placeholder
+    x = tf.placeholder(dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1735, in placeholder
+    return gen_array_ops.placeholder(dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4925, in placeholder
+    "Placeholder", dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 454, in new_func
+    return func(*args, **kwargs)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3155, in create_op
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1717, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "test_training_001.py", line 8, in <module>
+    import metrics
+  File "../../metrics.py", line 158
+    print("Spec", spec_value(np_pred, np_true))) # Testing
+                                               ^
+SyntaxError: invalid syntax
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Using TensorFlow backend.
+Loading training and testing data from disk...
+Loading model from disk...
+Training...
+Traceback (most recent call last):
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1278, in _do_call
+    return fn(*args)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1263, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1350, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "test_training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 451, in compile
+    handle_metrics(output_metrics)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 420, in handle_metrics
+    mask=masks[i])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training_utils.py", line 404, in weighted
+    score_array = fn(y_true, y_pred)
+  File "../../metrics.py", line 156, in spec
+    np_pred = K.eval(y_pred)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 673, in eval
+    return to_dense(x).eval(session=get_session())
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 680, in eval
+    return _eval_using_default_session(self, feed_dict, self.graph, session)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 4951, in _eval_using_default_session
+    return session.run(tensors, feed_dict)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 877, in run
+    run_metadata_ptr)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1100, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1272, in _do_run
+    run_metadata)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1291, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Caused by op 'dense_1_target', defined at:
+  File "test_training_001.py", line 45, in <module>
+    metrics = ['accuracy', metrics.spec, metrics.sens])
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/engine/training.py", line 238, in compile
+    dtype=K.dtype(self.outputs[i]))
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 517, in placeholder
+    x = tf.placeholder(dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1735, in placeholder
+    return gen_array_ops.placeholder(dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 4925, in placeholder
+    "Placeholder", dtype=dtype, shape=shape, name=name)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 454, in new_func
+    return func(*args, **kwargs)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3155, in create_op
+    op_def=op_def)
+  File "/usr/physics/python/anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1717, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): You must feed a value for placeholder tensor 'dense_1_target' with dtype float and shape [?,?]
+	 [[Node: dense_1_target = Placeholder[dtype=DT_FLOAT, shape=[?,?], _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+stty: standard input: Inappropriate ioctl for device
+Loading training and testing data from disk...
+Loading model from disk...
+Training...
+hi
+Epoch 1/1
+
+  64/3073 [..............................] - ETA: 2:42 - loss: 0.2703 - acc: 0.7969 - spec: 0.7969 - sens: 0.7969
+ 128/3073 [>.............................] - ETA: 1:59 - loss: 1.5392 - acc: 0.5547 - spec: 0.5547 - sens: 0.5547
+ 192/3073 [>.............................] - ETA: 1:42 - loss: 2.0898 - acc: 0.4427 - spec: 0.4427 - sens: 0.4427
+ 256/3073 [=>............................] - ETA: 1:35 - loss: 2.3651 - acc: 0.3867 - spec: 0.3867 - sens: 0.3867
+ 320/3073 [==>...........................] - ETA: 1:29 - loss: 2.5558 - acc: 0.3469 - spec: 0.3469 - sens: 0.3469
+ 384/3073 [==>...........................] - ETA: 1:24 - loss: 2.5979 - acc: 0.3411 - spec: 0.3411 - sens: 0.3411
+ 448/3073 [===>..........................] - ETA: 1:21 - loss: 2.7286 - acc: 0.3103 - spec: 0.3103 - sens: 0.3103
+ 512/3073 [===>..........................] - ETA: 1:17 - loss: 2.7885 - acc: 0.2969 - spec: 0.2969 - sens: 0.2969
+ 576/3073 [====>.........................] - ETA: 1:14 - loss: 2.5080 - acc: 0.3524 - spec: 0.3524 - sens: 0.3524
+ 640/3073 [=====>........................] - ETA: 1:11 - loss: 2.3453 - acc: 0.3375 - spec: 0.3375 - sens: 0.3375
+ 704/3073 [=====>........................] - ETA: 1:08 - loss: 2.1559 - acc: 0.3750 - spec: 0.3750 - sens: 0.3750
+ 768/3073 [======>.......................] - ETA: 1:06 - loss: 1.9971 - acc: 0.4076 - spec: 0.4076 - sens: 0.4076
+ 832/3073 [=======>......................] - ETA: 1:04 - loss: 1.8641 - acc: 0.4279 - spec: 0.4279 - sens: 0.4279
+ 896/3073 [=======>......................] - ETA: 1:02 - loss: 1.7491 - acc: 0.4208 - spec: 0.4208 - sens: 0.4208
+ 960/3073 [========>.....................] - ETA: 1:00 - loss: 1.6509 - acc: 0.4406 - spec: 0.4406 - sens: 0.4406
+1024/3073 [========>.....................] - ETA: 58s - loss: 1.5656 - acc: 0.4482 - spec: 0.4482 - sens: 0.4482 
+1088/3073 [=========>....................] - ETA: 56s - loss: 1.4897 - acc: 0.4403 - spec: 0.4403 - sens: 0.4403
+1152/3073 [==========>...................] - ETA: 53s - loss: 1.4225 - acc: 0.4280 - spec: 0.4280 - sens: 0.4280
+1216/3073 [==========>...................] - ETA: 51s - loss: 1.3626 - acc: 0.4408 - spec: 0.4408 - sens: 0.4408
+1280/3073 [===========>..................] - ETA: 49s - loss: 1.3061 - acc: 0.4453 - spec: 0.4453 - sens: 0.4453
+1344/3073 [============>.................] - ETA: 47s - loss: 1.2554 - acc: 0.4621 - spec: 0.4621 - sens: 0.4621
+1408/3073 [============>.................] - ETA: 46s - loss: 1.2096 - acc: 0.4744 - spec: 0.4744 - sens: 0.4744
+1472/3073 [=============>................] - ETA: 44s - loss: 1.1685 - acc: 0.4817 - spec: 0.4817 - sens: 0.4817
+1536/3073 [=============>................] - ETA: 42s - loss: 1.1294 - acc: 0.4876 - spec: 0.4876 - sens: 0.4876
+1600/3073 [==============>...............] - ETA: 40s - loss: 1.0963 - acc: 0.4956 - spec: 0.4956 - sens: 0.4956
+1664/3073 [===============>..............] - ETA: 38s - loss: 1.0641 - acc: 0.4832 - spec: 0.4832 - sens: 0.4832
+1728/3073 [===============>..............] - ETA: 36s - loss: 1.0336 - acc: 0.4832 - spec: 0.4832 - sens: 0.4832
+1792/3073 [================>.............] - ETA: 34s - loss: 1.0048 - acc: 0.4855 - spec: 0.4855 - sens: 0.4855
+1856/3073 [=================>............] - ETA: 33s - loss: 0.9788 - acc: 0.4946 - spec: 0.4946 - sens: 0.4946
+1920/3073 [=================>............] - ETA: 31s - loss: 0.9536 - acc: 0.5021 - spec: 0.5021 - sens: 0.5021
+1984/3073 [==================>...........] - ETA: 29s - loss: 0.9317 - acc: 0.5045 - spec: 0.5045 - sens: 0.5045
+2048/3073 [==================>...........] - ETA: 27s - loss: 0.9110 - acc: 0.5049 - spec: 0.5049 - sens: 0.5049
+2112/3073 [===================>..........] - ETA: 25s - loss: 0.8905 - acc: 0.5090 - spec: 0.5090 - sens: 0.5090
+2176/3073 [====================>.........] - ETA: 24s - loss: 0.8721 - acc: 0.5138 - spec: 0.5138 - sens: 0.5138
+2240/3073 [====================>.........] - ETA: 22s - loss: 0.8547 - acc: 0.5125 - spec: 0.5125 - sens: 0.5125
+2304/3073 [=====================>........] - ETA: 20s - loss: 0.8376 - acc: 0.5174 - spec: 0.5174 - sens: 0.5174
+2368/3073 [======================>.......] - ETA: 19s - loss: 0.8214 - acc: 0.5211 - spec: 0.5211 - sens: 0.5211
+2432/3073 [======================>.......] - ETA: 17s - loss: 0.8065 - acc: 0.5230 - spec: 0.5230 - sens: 0.5230
+2496/3073 [=======================>......] - ETA: 15s - loss: 0.7914 - acc: 0.5272 - spec: 0.5272 - sens: 0.5272
+2560/3073 [=======================>......] - ETA: 13s - loss: 0.7771 - acc: 0.5348 - spec: 0.5348 - sens: 0.5348
+2624/3073 [========================>.....] - ETA: 12s - loss: 0.7672 - acc: 0.5381 - spec: 0.5381 - sens: 0.5381
+2688/3073 [=========================>....] - ETA: 10s - loss: 0.7543 - acc: 0.5394 - spec: 0.5394 - sens: 0.5394
+2752/3073 [=========================>....] - ETA: 8s - loss: 0.7431 - acc: 0.5429 - spec: 0.5429 - sens: 0.5429 
+2816/3073 [==========================>...] - ETA: 7s - loss: 0.7318 - acc: 0.5462 - spec: 0.5462 - sens: 0.5462
+2880/3073 [===========================>..] - ETA: 5s - loss: 0.7207 - acc: 0.5497 - spec: 0.5497 - sens: 0.5497
+2944/3073 [===========================>..] - ETA: 3s - loss: 0.7099 - acc: 0.5533 - spec: 0.5533 - sens: 0.5533
+3008/3073 [============================>.] - ETA: 1s - loss: 0.7008 - acc: 0.5545 - spec: 0.5545 - sens: 0.5545
+3072/3073 [============================>.] - ETA: 0s - loss: 0.6918 - acc: 0.5557 - spec: 0.5557 - sens: 0.5557
+3073/3073 [==============================] - 84s 27ms/step - loss: 0.6916 - acc: 0.5555 - spec: 0.5555 - sens: 0.5555
+
+ 32/513 [>.............................] - ETA: 5s
+ 64/513 [==>...........................] - ETA: 4s
+ 96/513 [====>.........................] - ETA: 4s
+128/513 [======>.......................] - ETA: 3s
+160/513 [========>.....................] - ETA: 3s
+192/513 [==========>...................] - ETA: 3s
+224/513 [============>.................] - ETA: 2s
+256/513 [=============>................] - ETA: 2s
+288/513 [===============>..............] - ETA: 2s
+320/513 [=================>............] - ETA: 1s
+352/513 [===================>..........] - ETA: 1s
+384/513 [=====================>........] - ETA: 1s
+416/513 [=======================>......] - ETA: 0s
+448/513 [=========================>....] - ETA: 0s
+480/513 [===========================>..] - ETA: 0s
+512/513 [============================>.] - ETA: 0s
+513/513 [==============================] - 5s 9ms/step
+Using TensorFlow backend.
+
+On Test Data:
+Loss -> 0.671
+Accuracy -> 0.696
+Specificity -> 0.696
+Sensitivity -> 0.696
+
+Prediction:
+ [[0.53521246 0.46478754]
+ [0.5417678  0.4582322 ]
+ [0.52659494 0.47340506]
+ ...
+ [0.4995414  0.5004586 ]
+ [0.5249689  0.47503105]
+ [0.49321008 0.50678986]]
+
+Ground Truth:
+Has 383/513 FALSE labels
+ [[1. 0.]
+ [1. 0.]
+ [0. 1.]
+ ...
+ [1. 0.]
+ [1. 0.]
+ [0. 1.]]
+
+       BINARY CONFUSION MATRIX
+            THRESHOLD: 0.5
+	      +-----------------+
+    	      |    predicted    |
+    +---------+-----------------+
+    |actually |True	|False	|
+    |---------|---------|-------|
+    |True     |43.0	|87.0	|
+    |False    |69.0	|314.0	|
+    +---------+---------+-------+
+    
+Threshold: 0.0, Sensitivity: 1.000, Specificity: 0.000
+Threshold: 0.1, Sensitivity: 1.000, Specificity: 0.000
+Threshold: 0.2, Sensitivity: 1.000, Specificity: 0.000
+Threshold: 0.3, Sensitivity: 1.000, Specificity: 0.000
+Threshold: 0.4, Sensitivity: 1.000, Specificity: 0.000
+Threshold: 0.5, Sensitivity: 0.331, Specificity: 0.820
+Threshold: 0.6, Sensitivity: 0.000, Specificity: 1.000
+Threshold: 0.7, Sensitivity: 0.000, Specificity: 1.000
+Threshold: 0.8, Sensitivity: 0.000, Specificity: 1.000
+Threshold: 0.9, Sensitivity: 0.000, Specificity: 1.000
+Threshold: 1.0, Sensitivity: 0.000, Specificity: 1.000
+
+AUROC of 0.619

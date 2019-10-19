@@ -43,8 +43,12 @@ model.compile(loss = keras.losses.categorical_crossentropy,
              optimizer = keras.optimizers.Adadelta(),
              metrics = ['accuracy', metrics.spec, metrics.sens])
 
+non_cancer = np.count_nonzero(y_test[:, 0] == 1)
+samples = y_test.shape[0]
+
 # Fit the model. The loss and accuracy will be outputed by default.
 history = model.fit(X_train, y_train,
+          class_weight = { 1: non_cancer / samples, 0: (samples - non_cancer) / samples },
           batch_size = 256,
           epochs = 10)
 
@@ -73,4 +77,9 @@ Sensitivity -> %.3f
 % tuple(performance))
 
 y_pred = model.predict(X_test)
+print("Prediction:\n", y_pred)
+print("\nGround Truth:\nHas {}/{} FALSE labels\n".
+    format(np.count_nonzero(y_test[:, 0] == 1), y_test.shape[0]),
+    y_test)
 metrics.confusion_matrix(y_pred, y_test) # Producing a confusion matrix
+metrics.ROC(y_pred, y_test, False)
