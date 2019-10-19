@@ -7,6 +7,26 @@ import matplotlib.pyplot as plt
 import sklearn.metrics
 
 
+# Training plot
+def plot_training(model_history, num_epochs, model_num):
+    
+    plt.style.use('ggplot')
+    plt.switch_backend('agg')    
+
+    fig, ax = plt.subplots()
+    ax.plot(np.arange(1, num_epochs + 1), model_history.history["loss"], label = "Cross-entropy Loss")
+    ax.plot(np.arange(1, num_epochs + 1), model_history.history["acc"], label = "Accuracy")
+
+    axes = plt.gca()
+    axes.set_ylim([0, None])
+
+    plt.title("Training Loss and Accuracy")
+    plt.xlabel("Epoch Number")
+    plt.ylabel("Loss / Accuracy")
+    
+    ax.legend()
+    plt.savefig('../../../data/models/model_00{}/training_plot_00{}.png'.format(model_num, model_num))
+
 # Threshold probability vector to binary
 
 def threshold(y_pred, thresh):
@@ -14,7 +34,7 @@ def threshold(y_pred, thresh):
 
 # Ouput the ROC
 
-def ROC(y_pred, y_true, plot = True):
+def ROC(y_pred, y_true, model_num, plot = True):
     pred_sens = []
     pred_spec = []
     for thresh in range(0, 11):
@@ -35,20 +55,22 @@ def ROC(y_pred, y_true, plot = True):
             ## Plot figure
 
         x = np.linspace(0, 1, 50)
-
+        
+        plt.switch_backend('agg')    
+        plt.style.use('ggplot')
         fig, ax = plt.subplots()
 
         # Change the x to (1-spec) for the ROC curve
         roc, = ax.step(x = 1 - np.array(pred_spec), y = np.array(pred_sens), 
 		    where = 'post', label = 'ROC curve with AUROC = {:.3f}'.format(auroc))
         equality, = ax.plot(x, x, dashes = [6, 2], label = 'Classification due to chance with AUROC = 0.5')
-	    
+        
         plt.xlabel('False Positive Rate (1 - Specificity)')
         plt.ylabel('True Positive Rate (Sensitivity)')
         plt.title('Receiver Operating Charcteristics (ROC) Curve')
 	    
         ax.legend()
-        plt.show()
+        plt.savefig('../../../data/models/model_00{}/ROC_00{}.png'.format(model_num, model_num))
 
 
 # Ouput binary confusion matrix
@@ -141,8 +163,10 @@ def sens_value(y_pred, y_true, thresh = 0.5):
 
     return sens
 
-# Tensor metrics
 
+    ## Tensor metrics
+
+# Ignore not working properly
 def spec(y_pred, y_true):
 
     """
@@ -165,7 +189,7 @@ def spec(y_pred, y_true):
     
     return spec 
 
-
+# Ignore not working properly
 def sens(y_pred, y_true):
 
     """

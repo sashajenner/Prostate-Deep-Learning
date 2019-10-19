@@ -45,7 +45,7 @@ def test_model(num):
             format(np.count_nonzero(y_test[:, 0] == 1), y_test.shape[0]),
             y_test)
     metrics.confusion_matrix(y_pred, y_test) # Producing a confusion matrix
-    metrics.ROC(y_pred, y_test)
+    metrics.ROC(y_pred, y_test, 1)
 
 #for num in range(1, 6):
 #    test_model(num)

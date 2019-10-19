@@ -1,6 +1,7 @@
 import keras
 from sklearn.model_selection import train_test_split
 import numpy as np
+import keras.backend as K
 
 import sys
 sys.path.append('../../')
@@ -14,8 +15,11 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 print("Loading training and testing data from disk...")
 
 # Loading in the data
-X = np.load("../../../data/X.npy")
-y = np.load("../../../data/Y.npy")
+X = np.load("../../../data/X_orig.npy")
+y = np.load("../../../data/y_orig.npy")
+
+X = X[:, :, :, 0]
+X = X.reshape(X.shape[0], X.shape[1], X.shape[2], 1)
 
 #-------------------------------------DONT EDIT ABOVE LINE-------------------------------------------------
 
@@ -26,14 +30,14 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/7)
 print("Loading model from disk...")
 
 # Loading the model
-json_file = open("../../../data/models/model_002/model_002_init.json", "r")
+json_file = open("../../../data/models/model_007/model_007_init.json", "r")
 loaded_json_file = json_file.read()
 json_file.close()
 
 with keras.utils.CustomObjectScope({'GlorotUniform': keras.initializers.glorot_uniform()}):
     model = keras.models.model_from_json(loaded_json_file)
 
-model.load_weights("../../../data/models/model_002/model_002_init.h5")
+model.load_weights("../../../data/models/model_007/model_007_init.h5")
 
 
 print("Training...")
@@ -46,24 +50,24 @@ model.compile(loss = keras.losses.categorical_crossentropy,
 non_cancer = np.count_nonzero(y_test[:, 0] == 1)
 samples = y_test.shape[0]
 
-epoch_num = 10
+epoch_num = 10 
 
 # Fit the model. The loss and accuracy will be outputed by default.
 history = model.fit(X_train, y_train,
           class_weight = { 1: non_cancer / samples, 0: (samples - non_cancer) / samples },
-          batch_size = 512,
+          batch_size = 128,
           epochs = epoch_num)
 
 
-print("Saving model 002...")
+print("Saving the model 007...")
 
 # Serialise model to JSON
 model_json = model.to_json()
-with open("../../../data/models/model_002/model_002_trained.json", "w") as json_file:
+with open("../../../data/models/model_007/model_007_trained.json", "w") as json_file:
     json_file.write(model_json)
 
 # Serialise weights to HDF5
-model.save_weights("../../../data/models/model_002/model_002_trained.h5")
+model.save_weights("../../../data/models/model_007/model_007_trained.h5")
 
 
 # Evaluate the performance
@@ -82,5 +86,5 @@ print("\nGround Truth:\nHas {}/{} FALSE labels\n".
     format(non_cancer, samples),
     y_test)
 metrics.confusion_matrix(y_pred, y_test) # Producing a confusion matrix
-metrics.ROC(y_pred, y_test, 2)
-metrics.plot_training(history, epoch_num, 2)
+metrics.ROC(y_pred, y_test, 7)
+metrics.plot_training(history, epoch_num, 7)

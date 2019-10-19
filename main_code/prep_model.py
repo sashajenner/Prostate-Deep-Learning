@@ -55,6 +55,12 @@ X = X.astype('float32') / 255.0
 # Preprocessing the label data
 y = keras.utils.to_categorical(y, 2)
 
+print("Saving the original data...")
+
+    ## Saving the data
+np.save("../data/X_orig.npy", X)
+np.save("../data/y_orig.npy", y)
+
     ## Augmenting the data
 datagen = ImageDataGenerator(rotation_range = 20,
         horizontal_flip = True,
@@ -71,7 +77,7 @@ for i in range(10):
 
 print('Augmented Images shape:', X.shape) # Testing
 
-print("Saving the data...")
+print("Saving the augmented data...")
 
     ## Saving the data
 np.save("../data/X.npy", X)

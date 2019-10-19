@@ -20,6 +20,9 @@ y = np.load("../../../data/Y.npy")
 
 #-------------------------------------DONT EDIT ABOVE LINE-------------------------------------------------
 
+X = X[0:100, :, :, :]
+y = y[0:100, :]
+
 # Splitting the data into training and testing
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/7)
 
@@ -42,16 +45,18 @@ print("Training...")
 # Configure the training details, e.g. what optimiser to use
 model.compile(loss = keras.losses.categorical_crossentropy,
              optimizer = keras.optimizers.Adadelta(),
-             metrics = ['accuracy', metrics.spec, metrics.sens])
+             metrics = ['accuracy'])
 
 non_cancer = np.count_nonzero(y_test[:, 0] == 1)
 samples = y_test.shape[0]
 
+epoch_num = 2
+
 # Fit the model. The loss and accuracy will be outputed by default.
 history = model.fit(X_train, y_train,
           class_weight = { 1: non_cancer / samples, 0: (samples - non_cancer) / samples },
-          batch_size = 64,
-          epochs = 1)
+          batch_size = 2,
+          epochs = epoch_num)
 
 
 # Evaluate the performance
@@ -61,8 +66,6 @@ print(
 On Test Data:
 Loss -> %.3f
 Accuracy -> %.3f
-Specificity -> %.3f
-Sensitivity -> %.3f
 '''
 % tuple(performance))
 
@@ -72,4 +75,5 @@ print("\nGround Truth:\nHas {}/{} FALSE labels\n".
     format(non_cancer, samples),
     y_test)
 metrics.confusion_matrix(y_pred, y_test) # Producing a confusion matrix
-metrics.ROC(y_pred, y_test, False)
+#metrics.ROC(y_pred, y_test, False)
+metrics.plot_training(history, epoch_num, 1)
