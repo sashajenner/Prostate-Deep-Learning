@@ -25,7 +25,8 @@ def plot_training(model_history, num_epochs, model_num):
     plt.ylabel("Loss / Accuracy")
     
     ax.legend()
-    plt.savefig('../../../data/models/model_00{}/training_plot_00{}.png'.format(model_num, model_num))
+    plt.savefig('../../../data/models/model_{}/training_plot_{}.png'.format(str(model_num).zfill(3), \
+									str(model_num).zfill(3)))
 
 # Threshold probability vector to binary
 
@@ -70,7 +71,8 @@ def ROC(y_pred, y_true, model_num, plot = True):
         plt.title('Receiver Operating Charcteristics (ROC) Curve')
 	    
         ax.legend()
-        plt.savefig('../../../data/models/model_00{}/ROC_00{}.png'.format(model_num, model_num))
+        plt.savefig('../../../data/models/model_{}/ROC_{}.png'.format(str(model_num).zfill(3), \
+									str(model_num).zfill(3)))
 
 
 # Ouput binary confusion matrix
