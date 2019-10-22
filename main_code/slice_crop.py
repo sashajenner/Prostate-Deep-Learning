@@ -95,6 +95,16 @@ def extract_image(entry, path_name, crop_height, crop_width):
     # Saving cropped image as png
     save_path = '../data/test/crop_{}/{}_{}.png'.format(path_name, patient_id, fid)
     skimage.io.imsave(save_path, image_cropped)
+    
+    # Saving the matplotlib image
+    if path_name == "t2w":
+        plt.imshow(image_cropped)
+        
+        plt.title("T2-weighted cropped image for patient {}".format(int(patient_id[3:]) + 1))
+        plt.xlabel("Width (pixels)")
+        plt.ylabel("Height (pixels)")
+
+        plt.savefig('../data/test/matplotlib_{}/{}_{}.png'.format(path_name, patient_id, fid))
 
     return ijk_in_crop # Returning whether the (i,j) is in the cropped image
 
