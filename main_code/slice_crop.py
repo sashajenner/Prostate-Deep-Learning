@@ -3,6 +3,7 @@ import nibabel as nib
 import matplotlib.pyplot as plt, matplotlib.cm as cm, matplotlib.patches as patches # Testing
 import skimage
 import cv2 # For resizing
+from scipy import ndimage
 
 # Removing warning message
 import imageio.core.util
@@ -34,9 +35,16 @@ def extract_image(entry, path_name, crop_height, crop_width):
     # Loading each image and locating the required slice
     img_file = nib.load('../data/mri/{}/{}.nii'.format(patient_id, path_name))
     image = img_file.get_fdata()
+
     image_sliced = image[:,:,k]
     
-    # Saving the sliced image
+    # Saving sliced image as png
+    plt.imshow(image_sliced)
+    plt.title("")
+    plt.axis('off')
+    plt.savefig('../data/test/{}/{}_{}.png'.format(path_name, patient_id, fid))
+
+    # Saving the sliced image as nii
     save_path = '../data/mri/{}/{}_sliced_0{}.nii'.format(patient_id, path_name, fid)
     skimage.io.imsave(save_path, image_sliced)
     
@@ -95,12 +103,18 @@ def extract_image(entry, path_name, crop_height, crop_width):
     # Saving cropped image as png
     save_path = '../data/test/crop_{}/{}_{}.png'.format(path_name, patient_id, fid)
     skimage.io.imsave(save_path, image_cropped)
+    plt.imshow(image_cropped)
+    plt.title("")
+    plt.axis('off')
+    plt.savefig('../data/test/crop_{}_colour/{}_{}.png'.format(path_name, patient_id, fid))
     
     # Saving the matplotlib image
     if path_name == "t2w":
+        image_cropped = ndimage.rotate(image_cropped, 270)
         plt.imshow(image_cropped)
         
         plt.title("T2-weighted cropped image for patient {}".format(int(patient_id[3:]) + 1))
+        plt.axis('on')
         plt.xlabel("Width (pixels)")
         plt.ylabel("Height (pixels)")
 
